@@ -8,3 +8,5 @@ menu:
         weight: 1
 ---
 
+Ein jeder Club benötigt einen Vorstand, der die Vereinsführung übernimmt und der als Ansprechpartner zu erreichen ist.
+
