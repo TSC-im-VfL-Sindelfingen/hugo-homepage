@@ -1,0 +1,11 @@
+{{ partial "tsc/start-person" . }}
+<div class="content content-vorstand">
+    <div class="role">{{ .Get "role" }}</div>
+    <div class="name">
+        {{ with .Get "mail" }}
+            <a href="mailto:{{ . }}"><img src="/img/mail.jpg" class="mail-icon"></a>
+        {{ end }}
+        {{ .Get "name" }}
+    </div>
+</div>
+{{ partial "tsc/end-person" . }}

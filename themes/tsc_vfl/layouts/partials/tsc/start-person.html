@@ -1,0 +1,8 @@
+<div class="person">
+    <div class="image">
+        {{- $person := . -}}
+        {{- with .Get "img" -}}
+            <img src="{{ . }}" {{ with $person.Get "name" }}alt="Bild {{ . }}"{{ end }}>
+        {{- end -}}
+    </div>
+    
