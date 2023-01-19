@@ -1,0 +1,12 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: My New Hugo Site
+theme: tsc_vfl
+
+build:
+  writeStats: true
+
+menu:
+  - main
+
+# sectionPagesMenu: "main"

@@ -1,0 +1,156 @@
+/* Variables */
+$total_width: 95%;
+
+$color_red: #cd1013;
+
+/* main styling */
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #ececec;
+    font: 90% 'Open Sans', sans-serif;
+}
+
+#wrapper {
+    width: 100%;
+    min-height: 100.1vh;
+    max-width: 1280px;
+    background-color: #fcfcfc;
+    
+    #header {
+        border-bottom: 2px solid rgba(173,173,173,.5);
+        margin: 0 auto 30px;
+        
+        > .logo-row {
+            display: flex;
+            justify-content: space-between;
+
+            .logo {
+                margin: 15px 0 10px 30px;
+            }
+            .logo-vfl {
+                margin: 12px 45px 0 0;
+            }
+        }
+
+        > .slider {
+            width: calc(100% - 60px);
+            // height: 250px;
+            display: flex;
+            padding: 0 10px;
+            border-right: 20px solid $color_red;
+            border-left: 20px solid $color_red;
+
+            > img {
+                width: 100%;
+            }
+        }
+
+        > .nav {
+            width: $total_width;
+            height: 30px;
+            margin: 5px auto 0;
+            font: 1.5em 'Open Sans Condensed', sans-serif;
+
+            nav {
+                display: flex;
+                height: 100%;
+                justify-content: flex-start;
+                align-items: center;
+
+                a {
+                    margin: 0 40px 0 0;
+                    // height: 100%;
+                }
+            }
+        }
+    }
+
+    .main {
+        width: $total_width;
+        display: flex;
+        margin: auto;
+
+        > .left-menu {
+            width: 180px;
+            margin-right: 40px;
+            flex: auto 0 0;
+            display: flex;
+            flex-direction: column;
+
+            > a {
+                text-decoration: none;
+                display: block;
+                height: 35px;
+                margin: 2px 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 0px 15px;
+                font: 1.5em 'Open Sans Condensed', sans-serif;
+
+                color: black;
+                background-color: #ececec;
+
+                &.active {
+                    background-color: $color_red;
+                    color: white;
+                }
+            }
+        }
+
+        #content {
+            flex: 100% 0 1;
+
+            > h1:nth-child(1) {
+                color: $color_red;
+                font-family: 'Droid Serif',serif;
+            }
+        }
+    }
+
+    #footer {
+        width: 95%;
+        margin: 30px auto 0;
+        padding: 4px 10px 0;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #a5a5a5;
+
+        .first-entry {
+            font: 1em 'Open Sans Condensed', sans-serif;
+        }
+        
+        .meta-menu {
+            max-width: 70%;
+            > ul {
+                padding: 0;
+                margin: 0;
+
+                display: flex;
+                flex-wrap: wrap;
+
+                font: 1.4em 'Open Sans Condensed', sans-serif;
+
+                > li {
+                    list-style: none;
+                    margin-left: 1em;
+                }
+            }
+        }
+    }    
+}
+
+@font-face{
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url("/ttf/OpenSans_Condensed-Light.ttf")  format('truetype');
+} 
+@font-face{ 
+    font-family: 'Droid Serif';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/ttf/DroidSerif.ttf') format('truetype')
+}

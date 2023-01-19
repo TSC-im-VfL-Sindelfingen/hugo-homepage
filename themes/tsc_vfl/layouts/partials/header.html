@@ -1,0 +1,27 @@
+<div id="header">
+    <div class="logo-row">
+        <a href="/" class="logo">
+            <img src="{{ relURL "img/logo.jpg" }}">
+        </a>
+        <a href="https://www.vfl-sindelfingen.de/" class="logo-vfl">
+            <img src="{{ relURL "img/logo_vfl.gif" }}">
+        </a>
+    </div>
+    <div class="slider">
+        <img src="{{ relURL "img/banner/Banner-RENOTE.jpg" }}">
+    </div>
+    <div id="nav-border" class="container nav">
+        <nav id="nav" class="nav justify-content-center">
+            {{ range .Site.Menus.main }}
+                <a class="nav-link" href="{{ .URL }}">
+                    {{/*{{ if .Pre }}
+                        {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+                        {{ $icon }}
+                    {{ end }}*/}}
+                    {{ $text := print .Name | safeHTML }}
+                    {{ $text }}
+                </a>
+            {{ end }}
+        </nav>
+    </div>
+</div>
