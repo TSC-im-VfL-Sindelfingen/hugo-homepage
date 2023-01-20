@@ -1,6 +1,6 @@
 ---
 title: "Axel Fedeler"
-draft: true
+draft: false
 image: "Axel_Fedeler.jpg"
 headless: true
 ---

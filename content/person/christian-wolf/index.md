@@ -1,6 +1,6 @@
 ---
 title: "Christian Wolf"
-draft: true
+draft: false
 image: "Christian_Wolf.jpg"
 headless: true
 ---

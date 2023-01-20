@@ -1,6 +1,6 @@
 ---
 title: "Anja Vollmer"
-draft: true
+draft: false
 image: "Anja_Vollmer.jpg"
 headless: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Olivia Paprotny"
-draft: true
+draft: false
 image: "Olivia_Paprotny.jpg"
 headless: true
 ---

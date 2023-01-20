@@ -1,7 +1,7 @@
 ---
 title: "Trainer"
 date: 2023-01-19T17:36:55+01:00
-draft: true
+draft: false
 menu:
     main:
         parent: club

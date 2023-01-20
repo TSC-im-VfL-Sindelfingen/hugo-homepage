@@ -1,6 +1,6 @@
 ---
 title: "Suzana Köster-Manojlovic"
-draft: true
+draft: false
 image: "suzi.jpg"
 sex: female
 headless: true

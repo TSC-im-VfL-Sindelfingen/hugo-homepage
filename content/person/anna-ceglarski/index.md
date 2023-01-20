@@ -1,6 +1,6 @@
 ---
 title: "Anna Ceglarski"
-draft: true
+draft: false
 image: "Anna_Ceglarski.jpg"
 headless: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Petra Kohler"
-draft: true
+draft: false
 image: "Petra_Kohler.jpg"
 headless: true
 ---

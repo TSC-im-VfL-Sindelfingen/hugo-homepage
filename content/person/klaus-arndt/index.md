@@ -1,6 +1,6 @@
 ---
 title: "Klaus Arndt"
-draft: true
+draft: false
 image: "Klaus_Arndt.jpg"
 headless: true
 ---

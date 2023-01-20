@@ -1,6 +1,6 @@
 ---
 title: "Nelly Fuchs"
-draft: true
+draft: false
 image: "Nelly_Fuchs.jpeg"
 headless: true
 ---

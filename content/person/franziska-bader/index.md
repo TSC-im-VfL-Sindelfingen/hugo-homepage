@@ -1,6 +1,6 @@
 ---
 title: "Franziska Bader"
-draft: true
+draft: false
 image: "Franziska_Bader.jpg"
 headless: true
 ---

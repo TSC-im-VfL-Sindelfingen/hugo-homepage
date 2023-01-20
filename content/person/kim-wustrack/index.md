@@ -1,6 +1,6 @@
 ---
 title: "Kim Wustrack"
-draft: true
+draft: false
 image: "Kim_Wustrack.jpg"
 headless: true
 ---

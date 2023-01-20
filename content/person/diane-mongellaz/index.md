@@ -1,6 +1,6 @@
 ---
 title: "Diane Mongellaz"
-draft: true
+draft: false
 image: "Diane_Mongellaz.jpg"
 headless: true
 ---

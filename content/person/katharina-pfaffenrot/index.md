@@ -1,6 +1,6 @@
 ---
 title: "Katarina Pfaffenrot"
-draft: true
+draft: false
 image: "Katharina_Pfaffenrot.jpg"
 headless: true
 ---

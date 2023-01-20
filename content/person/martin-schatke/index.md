@@ -1,6 +1,6 @@
 ---
 title: "Martin Schatke"
-draft: true
+draft: false
 image: "Martin_Schatke.jpg"
 headless: true
 ---

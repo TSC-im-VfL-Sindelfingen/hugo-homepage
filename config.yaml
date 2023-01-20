@@ -1,6 +1,6 @@
 baseURL: http://example.org/
-languageCode: en-us
-title: My New Hugo Site
+languageCode: de
+title: TSC im VfL Sindelfingen e.V.
 theme: tsc_vfl
 relativeUrls: true
 

@@ -1,7 +1,7 @@
 ---
 title: "Impressum"
 date: 2023-01-15T16:12:13+01:00
-draft: true
+draft: false
 menu:
     main:
         parent: club

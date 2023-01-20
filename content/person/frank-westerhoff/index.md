@@ -1,6 +1,6 @@
 ---
 title: "Frank Westerhoff"
-draft: true
+draft: false
 image: "Frank_Westerhoff.jpg"
 headless: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Uwe Keck"
-draft: true
+draft: false
 image: "Uwe_Keck.jpg"
 headless: true
 ---

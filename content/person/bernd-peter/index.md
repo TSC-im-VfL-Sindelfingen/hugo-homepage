@@ -1,6 +1,6 @@
 ---
 title: "Bernd Peter"
-draft: true
+draft: false
 image: "Bernd_Peter.jpg"
 headless: true
 ---

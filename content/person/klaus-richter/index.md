@@ -1,6 +1,6 @@
 ---
 title: "Klaus Richter"
-draft: true
+draft: false
 image: "Klaus_Richter.jpg"
 headless: true
 ---

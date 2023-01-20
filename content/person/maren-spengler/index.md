@@ -1,6 +1,6 @@
 ---
 title: "Maren Spengler"
-draft: true
+draft: false
 image: "Maren_Spengler.jpg"
 headless: true
 ---

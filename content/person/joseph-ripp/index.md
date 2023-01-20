@@ -1,6 +1,6 @@
 ---
 title: "Joseph Ripp"
-draft: true
+draft: false
 image: ""
 sex: male
 headless: true

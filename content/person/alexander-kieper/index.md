@@ -1,6 +1,6 @@
 ---
 title: "Alexander Kieper"
-draft: true
+draft: false
 image: "Alexander_Kieper.jpg"
 headless: true
 ---

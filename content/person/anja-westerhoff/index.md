@@ -1,6 +1,6 @@
 ---
 title: "Anja Westerhoff"
-draft: true
+draft: false
 image: "Anja_Westerhoff.jpg"
 headless: true
 ---

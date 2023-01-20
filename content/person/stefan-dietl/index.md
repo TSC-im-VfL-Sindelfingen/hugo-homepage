@@ -1,6 +1,6 @@
 ---
 title: "Stefan Dietl"
-draft: true
+draft: false
 image: "Stefan_Dietl.jpg"
 headless: true
 ---

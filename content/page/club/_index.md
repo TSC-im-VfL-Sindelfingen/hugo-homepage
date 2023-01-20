@@ -1,7 +1,7 @@
 ---
 title: "Der Club"
 date: 2023-01-15T16:11:17+01:00
-draft: true
+draft: false
 menu:
     main:
         identifier: club

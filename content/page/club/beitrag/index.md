@@ -1,7 +1,7 @@
 ---
 title: "Beitrag"
 date: 2023-01-15T16:11:54+01:00
-draft: true
+draft: false
 menu:
     main:
         parent: club

@@ -1,6 +1,6 @@
 ---
 title: "Britta Sigmund"
-draft: true
+draft: false
 image: "Britta_Sigmund.jpg"
 headless: true
 ---
