@@ -2,7 +2,7 @@
     <div class="image">
         {{- $param := . -}}
         {{- with .image -}}
-            <img src="{{ .RelPermalink }}" {{ with $param.name }}alt="Bild {{ . }}"{{ end }}>
+            <img src="{{ . }}" {{ with $param.name }}alt="Bild {{ $param.name }}"{{ end }}>
         {{- end -}}
     </div>
     
