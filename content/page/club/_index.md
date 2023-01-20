@@ -5,6 +5,7 @@ draft: true
 menu:
     main:
         identifier: club
+        weight: 2
 ---
 
 Unser Tanzsportclub (TSC) wurde zwar erst 1971 als Abteilung des VfL Sindelfingen gegründet und ist damit deutlich jünger als der Hauptverein. Mit mehreren hundert Mitgliedern aller Altersgruppen sind wir aber schon seit vielen Jahren eine der großen VfL-Abteilungen.
