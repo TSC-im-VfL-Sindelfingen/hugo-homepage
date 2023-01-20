@@ -55,7 +55,6 @@ menu:
         name="stefan-dietl" >}}
 {{< /tsc/person-list >}}
 
- 
 ## Dance-Styles
 
 {{< tsc/person-list >}}
