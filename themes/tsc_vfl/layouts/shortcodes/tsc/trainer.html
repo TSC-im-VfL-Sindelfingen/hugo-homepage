@@ -1,0 +1,39 @@
+{{ with .Site.GetPage "person" }}
+    {{ with .GetPage ($.Get "name") }}
+        {{ $imageName := .Params.Get "image" }}
+        {{ $image := "" }}
+        {{ with .Resources.GetMatch $imageName}}
+            {{ $image = .RelPermalink }}
+        {{ else }}
+            {{ warnf "Image for %s is not correclty found. Falling back to default." ($.Get "name") }}
+            {{ with .Resources.ByType "image" }}
+                {{ $image = (index . 0).RelPermalink }}
+            {{ else }}
+                {{ with .Params.Get "sex" }}
+                    {{ if eq . "male" }}
+                        {{ $image = relURL "img/persons/male.png" }}
+                    {{ else }}
+                        {{ errorf "Generic female icon not found." }}
+                    {{ end }}
+                {{ else }}
+                    {{ warnf "Cannot find sex of %s." ($.Get "name") }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+        {{ $config := 
+            dict
+            "image" $image 
+            "name" (.Params.Get "title")
+        }}
+        {{ partial "tsc/start-person" $config }}
+        <div class="content content-trainer">
+            <div class="name">
+                {{- .Params.Get "title" -}}
+            </div>
+        </div>
+        {{ partial "tsc/end-person" . }}
+    {{ else }}
+        {{ warnf "Cannot find person %s." ($.Get "name") }}
+        <div class="person">{{ $.Get "name" }}</div>
+    {{ end }}
+{{ end }}
