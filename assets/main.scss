@@ -3,6 +3,8 @@ $total_width: 95%;
 
 $color_red: #cd1013;
 
+$gap_columns_persons: 25px;
+
 /* main styling */
 
 body {
@@ -145,17 +147,21 @@ body {
 .person-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: $gap_columns_persons;
+    margin: 0 0 $gap_columns_persons;
 }
 
 .person {
-    width: calc(50% - 10px);
+    width: calc(50% - #{$gap_columns_persons} / 2);
     height: 80px;
     // margin: 10px 25px 10px 0;
     display: flex;
     
     > .image {
         flex: 60px 0 0;
+        img {
+            width: 100%;
+        }
     }
     > .content {
         flex: 1px 1 0;
