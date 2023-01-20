@@ -1,11 +1,35 @@
-{{ partial "tsc/start-person" . }}
-<div class="content content-vorstand">
-    <div class="role">{{ .Get "role" }}</div>
-    <div class="name">
-        {{ with .Get "mail" }}
-            <a href="mailto:{{ . }}"><img src="/img/mail.jpg" class="mail-icon"></a>
+{{ with .Site.GetPage "person" }}
+    {{/*{{ $person := . }}*/}}
+    {{ with .GetPage ($.Get "name") }}
+        {{ $imageName := .Params.Get "image" }}
+        {{ $image := "" }}
+        {{ with .Resources.GetMatch $imageName}}
+            {{ $image = . }}
+        {{ else }}
+            {{ warnf "Image for %s is not correclty found. Falling back to default." ($.Get "name") }}
+            {{ with .Resources.ByType "image" }}
+                {{ $image = index . 0 }}
+            {{ else }}
+                {{/* $image  */}}
+            {{ end }}
         {{ end }}
-        {{ .Get "name" }}
-    </div>
-</div>
-{{ partial "tsc/end-person" . }}
+        {{ $config := 
+            dict
+            "image" $image 
+            "name" (.Params.Get "title")
+        }}
+        {{ partial "tsc/start-person" $config }}
+        <div class="content content-vorstand">
+            <div class="role">{{ $.Get "role" }}</div>
+            <div class="name">
+                {{ with $.Get "mail" }}
+                    <a href="mailto:{{ . }}"><img src="/img/mail.jpg" class="mail-icon"></a>
+                {{ end }}
+                {{ .Params.Get "title" }}
+            </div>
+        </div>
+        {{ partial "tsc/end-person" . }}
+    {{ else }}
+        {{ errorf "Cannot find person %s." ($.Get "name") }}
+    {{ end }}
+{{ end }}

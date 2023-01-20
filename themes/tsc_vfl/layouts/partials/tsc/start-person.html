@@ -1,8 +1,8 @@
 <div class="person">
     <div class="image">
-        {{- $person := . -}}
-        {{- with .Get "img" -}}
-            <img src="{{ . }}" {{ with $person.Get "name" }}alt="Bild {{ . }}"{{ end }}>
+        {{- $param := . -}}
+        {{- with .image -}}
+            <img src="{{ .RelPermalink }}" {{ with $param.name }}alt="Bild {{ . }}"{{ end }}>
         {{- end -}}
     </div>
     

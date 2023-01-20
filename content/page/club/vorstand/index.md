@@ -12,28 +12,25 @@ Ein jeder Club benötigt einen Vorstand, der die Vereinsführung übernimmt und 
 
 {{< tsc/person-list >}}
     {{< tsc/vorstand
-        name="Anja Westerhoff"
+        name="anja-westerhoff"
         role="Abteilungsleiter"
-        img="img/Anja_Westerhoff.jpg"
         mail="clubleiter@tanzsportclub.vfl-sindelfingen.de"
         >}}
     {{< tsc/vorstand
-        name="Klaus Richter"
+        name="klaus-richter"
         role="Schriftfuehrer/TSC-Geschaeftsstelle"
-        img="img/Klaus_Richter.jpg"
         mail="kontakt@tanzsportclub.vfl-sindelfingen.de"
         >}}
 {{< /tsc/person-list >}}
 
 {{< tsc/person-list >}}
     {{< tsc/vorstand
-        name="Frank Westerhoff"
+        name="frank-westerhoff"
         role="Kasse"
-        img="img/Frank_Westerhoff.jpg"
         mail="kasse@tanzsportclub.vfl-sindelfingen.de"
         >}}
     {{< tsc/vorstand
-        name="Uwe Keck"
+        name="uwe-keck"
         role="Zahlungsverkehr"
         img="img/Uwe_Keck.jpg"
         mail="kasse@tanzsportclub.vfl-sindelfingen.de"
@@ -42,34 +39,30 @@ Ein jeder Club benötigt einen Vorstand, der die Vereinsführung übernimmt und 
 
 {{< tsc/person-list >}}
     {{< tsc/vorstand
-        name="Klaus Anrdt"
+        name="klaus-arndt"
         role="Mitgliederverwaltung"
-        img="img/Klaus_Arndt.jpg"
         mail="mitgliederverwaltung@tanzsportclub.vfl-sindelfingen.de"
         >}}
     {{< tsc/vorstand
-        name="Anja Vollmer"
+        name="anja-vollmer"
         role="Mitgliederverwaltung"
-        img="img/Anja_Vollmer.jpg"
         mail="mitgliederverwaltung@tanzsportclub.vfl-sindelfingen.de"
         >}}
     {{< tsc/vorstand
-        name="Axel Fedeler"
+        name="axel-fedeler"
         role="Mitgliederverwaltung"
-        img="img/Axel_Fedeler.jpg"
         mail="mitgliederverwaltung@tanzsportclub.vfl-sindelfingen.de"
         >}}
 {{< /tsc/person-list >}}
 
 {{< tsc/person-list >}}
     {{< tsc/vorstand
-        name="Alexander Kieper"
+        name="alexander-kieper"
         role="Sportwart"
-        img="img/Alexander_Kieper.jpg"
         mail="sportwart@tanzsportclub.vfl-sindelfingen.de"
         >}}
     {{< tsc/vorstand
-        name="Christian Wolf"
+        name="christian-wolf"
         role="Stellv. Sportwart"
         img="img/Christian_Wolf.jpg"
         mail="sportwart@tanzsportclub.vfl-sindelfingen.de"
@@ -78,31 +71,28 @@ Ein jeder Club benötigt einen Vorstand, der die Vereinsführung übernimmt und 
 
 {{< tsc/person-list >}}
     {{< tsc/vorstand
-        name="Petra Kohler"
+        name="petra-kohler"
         role="Breitensportwartin"
-        img="img/Petra_Kohler.jpg"
         mail="breitensportwart@tanzsportclub.vfl-sindelfingen.de"
         >}}
 {{< /tsc/person-list >}}
 
 {{< tsc/person-list >}}
     {{< tsc/vorstand
-        name="Anna Ceglarski"
+        name="anna-ceglarski"
         role="Veranstaltungen"
-        img="img/Anna_Ceglarski.jpg"
         mail="veranstaltungen@tanzsportclub.vfl-sindelfingen.de"
         >}}
 {{< /tsc/person-list >}}
 
 {{< tsc/person-list >}}
     {{< tsc/vorstand
-        name="Martin Schatke"
+        name="martin-schatke"
         role="Jugendwart"
-        img="img/Martin_Schatke.jpg"
         mail="jugend@tanzsportclub.vfl-sindelfingen.de"
         >}}
     {{< tsc/vorstand
-        name="Olivia Paprotny"
+        name="olivia-paprotny"
         role="Stellv. Jugendwartin"
         img="img/Olivia_Paprotny.jpg"
         >}}
@@ -110,81 +100,69 @@ Ein jeder Club benötigt einen Vorstand, der die Vereinsführung übernimmt und 
 
 {{< tsc/person-list >}}
     {{< tsc/vorstand
-        name="Diane Mongellaz"
+        name="diane-mongellaz"
         role="Presse"
-        img="img/Diane_Mongellaz.jpg"
         mail="presse@tanzsportclub.vfl-sindelfingen.de"
         >}}
     {{< tsc/vorstand
-        name="Katharina Pfaffenrot"
+        name="katharina-pfaffenrot"
         role="Presse"
-        img="img/Katharina_Pfaffenrot.jpg"
         mail="presse@tanzsportclub.vfl-sindelfingen.de"
         >}}
     {{< tsc/vorstand
-        name="Nelly Fuchs"
+        name="nelly-fuchs"
         role="Presse"
-        img="img/Nelly_Fuchs.jpeg"
         mail="presse@tanzsportclub.vfl-sindelfingen.de"
         >}}
 {{< /tsc/person-list >}}
 
 {{< tsc/person-list >}}
     {{< tsc/vorstand
-        name="Maren Spengler"
+        name="maren-spengler"
         role="Dancestyles"
-        img="img/Maren_Spengler.jpg"
         mail="dance-styles@tanzsportclub.vfl-sindelfingen.de"
         >}}
     {{< tsc/vorstand
-        name="Britta Sigmund"
+        name="britta-sigmund"
         role="Stellv. Dancestyles"
-        img="img/Britta_Sigmund.jpg"
         mail="dance-styles@tanzsportclub.vfl-sindelfingen.de"
         >}}
     {{< tsc/vorstand
-        name="Kim Wustrack"
+        name="kim-wustrack"
         role="Stellv. Dancestyles"
-        img="img/Kim_Wustrack.jpg"
         mail="dance-styles@tanzsportclub.vfl-sindelfingen.de"
         >}}
     {{< tsc/vorstand
-        name="Franziska Bader"
+        name="franziska-bader"
         role="Stellv. Dancestyles"
-        img="img/Franziska_Bader.jpg"
         >}}
 {{< /tsc/person-list >}}
 
 {{< tsc/person-list >}}
     {{< tsc/vorstand
-        name="Bernd Peter"
+        name="bernd-peter"
         role="Webmaster"
-        img="img/Bernd_Peter.jpg"
         mail="vflwebmaster@bptr.de"
         >}}
     {{< tsc/vorstand
-        name="Christian Wolf"
+        name="christian-wolf"
         role="Stellv. Webmaster"
-        img="img/Christian_Wolf.jpg"
         mail="vizesportwart@tsc-vfl.de"
         >}}
 {{< /tsc/person-list >}}
 
 {{< tsc/person-list >}}
     {{< tsc/vorstand
-        name="Klaus Richter"
+        name="klaus-richter"
         role="Gebaeude"
-        img="img/Klaus_Richter.jpg"
         mail="kontakt@tanzsportclub.vfl-sindelfingen.de"
         >}}
     {{< tsc/vorstand
-        name="Stefan Dietl"
+        name="stefan-dietl"
         role="Gebaeude"
-        img="img/Stefan_Dietl.jpg"
         >}}
     {{< tsc/vorstand
-        name="Joseph Ripp"
+        name="joseph-ripp"
         role="Gebaeude"
-        img="img/male.png"
         >}}
 {{< /tsc/person-list >}}
