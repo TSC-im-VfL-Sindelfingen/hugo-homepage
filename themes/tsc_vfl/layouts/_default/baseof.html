@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
-    {{- partial "head.html" . -}}
+    {{- partial "page/head.html" . -}}
     <body>
         <div id="wrapper">
-            {{- partial "header.html" . -}}
+            {{- partial "page/header.html" . -}}
             <div class="main">
                 <div class="left-menu">
-                    {{- partial "left_menu" . -}}
+                    {{- partial "page/left_menu" . -}}
                 </div>
                 <div id="content">
                     {{- block "main" . -}}{{- end -}}
                 </div>
             </div>
-            {{- partial "footer.html" . -}}
+            {{- partial "page/footer.html" . -}}
         </div>
     </body>
 </html>
