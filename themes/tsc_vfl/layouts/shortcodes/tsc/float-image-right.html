@@ -1,0 +1,5 @@
+{{ $src := .Get "src" }}
+<img class="image float-right"
+    {{ with .Get "alt" }}alt="{{ . }}"{{ end }}
+    src="{{ ($.Page.Resources.GetMatch $src)}}"
+    >

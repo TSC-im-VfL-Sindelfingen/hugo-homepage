@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 233%;
+    margin-top: 0;
 }
 
 #wrapper {
@@ -120,6 +121,46 @@ h1 {
 
         #content {
             flex: 100% 0 1;
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                
+                td, th {
+                    padding: 5px;
+                    border: none;
+                }
+                tr {
+                    background-color: #dedede;
+
+                    &:nth-of-type(2n) {
+                        background-color: #f7f7f7;
+                    }
+                }
+
+                thead > tr {
+                    background-color: $color_red;
+                    color: white;
+                    text-align: left;
+                }
+            }
+
+            .float-right {
+                float: right;
+            }
+
+            a {
+                color: black;
+
+                &.download {
+                    &::before {
+                        margin: 0 5px 0 0;
+                        top: 3px;
+                        position: relative;
+                        content: url('img/download.png');
+                    }
+                }
+            }
         }
     }
 

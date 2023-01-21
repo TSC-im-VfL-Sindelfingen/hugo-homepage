@@ -5,5 +5,6 @@ draft: false
 menu:
     main:
         weight: 3
+        identifier: angebote
 ---
 
