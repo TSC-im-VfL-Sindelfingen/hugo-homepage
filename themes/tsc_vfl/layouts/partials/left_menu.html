@@ -4,7 +4,7 @@
         {{ if .HasChildren }}
             {{ range .Children }}
                 {{ $submenu := "" }}
-                {{ if $currentPage.IsMenuCurrent "main" . }}
+                {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
                     {{ $submenu = " active"}}
                 {{ end }}
                 <a href="{{ .URL }}" class="{{ $submenu }}">

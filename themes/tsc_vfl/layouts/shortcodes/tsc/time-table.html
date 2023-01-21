@@ -1,0 +1,11 @@
+{{ $table := .Inner | markdownify }}
+{{ $old := "<table>" }}
+{{ $class := "time-no-age" }}
+{{ $cols := "<col width=\"300\">" }}
+{{ with .Get "age" }}
+    {{ $class = "time-age" }}
+    {{ $cols = "<col width=\"220\"><col width=\"80\">" }}
+{{ end }}
+{{ $new := printf "<table class=\"time %s\"><colgroup>%s<col width=\"120\"><col width=\"120\"><col width=\"130\"></colgroup>" $class $cols }}
+{{ $newTable := replace $table $old $new }}
+{{ $newTable | safeHTML }}

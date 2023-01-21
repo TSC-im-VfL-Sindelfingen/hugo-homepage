@@ -26,11 +26,4 @@ Interessiert? Na, dann schauen Sie doch einfach einmal vorbei!
 | Tanzkreis 6 | Freitag     | 19:00 - 20:30 | VH Vorn  |
 | Tanzkreis 0 | Freitag     | 19:00 - 20:30 | VH Mitte |
 
-
-## Trainingsorte
-
-siehe [Standorte]({{< relref "/page/club/raeume" >}})
-
-## Beitrag
-
-siehe [Mitgliedschaft]({{< relref "/page/club/beitrag" >}})
+{{% tsc/link-offers %}}

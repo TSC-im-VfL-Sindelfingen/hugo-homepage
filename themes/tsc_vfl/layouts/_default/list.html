@@ -1,5 +1,7 @@
 {{ define "main" }}
-    <h1>{{ .Title }}</h1>
+    <a name="top">
+        <h1>{{ .Title }}</h1>
+    </a>
     {{ .Content }}
     <!--{{ range .Pages.ByPublishDate.Reverse }}
         <p>
@@ -10,4 +12,5 @@
             </a>
         </p>
     {{ end }}-->
+    {{ partial "totop" }}
 {{ end }}
