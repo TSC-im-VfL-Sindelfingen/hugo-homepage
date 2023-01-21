@@ -10,4 +10,5 @@ build:
 menu:
   - main
 
+enableInlineShortcodes: true
 # sectionPagesMenu: "main"

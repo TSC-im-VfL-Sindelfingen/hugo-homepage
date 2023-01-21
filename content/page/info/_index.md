@@ -5,5 +5,15 @@ draft: false
 menu:
     main:
         weight: 4
+        identifier: info
 ---
 
+**schriftliche Anfragen an:**
+
+Clubadresse:  
+TSC im VfL Sindelfingen  
+Rudolf-Harbig-Str. 6  
+71063 Sindelfingen
+
+E-Mail an:  
+[kontakt@tanzsportclub.vfl-sindelfingen.de](mailto:kontakt@tanzsportclub.vfl-sindelfingen.de)
