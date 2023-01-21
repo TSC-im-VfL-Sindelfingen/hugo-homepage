@@ -63,14 +63,23 @@ h1 {
 
         > .slider {
             width: calc(100% - 60px);
-            // height: 250px;
+            height: 250px;
             display: flex;
             padding: 0 10px;
             border-right: 20px solid $color_red;
             border-left: 20px solid $color_red;
+            position: relative;
 
             > img {
-                width: 100%;
+                width: calc(100% - 20px);
+                // display: block;
+                position: absolute;
+                opacity: 1;
+                transition: opacity 2.5s ease-in-out;
+
+                &.hidden {
+                    opacity: 0;
+                }
             }
         }
 
@@ -130,6 +139,7 @@ h1 {
 
         #content {
             flex: 100% 0 1;
+            text-align: justify;
 
             table {
                 width: 100%;
@@ -156,7 +166,7 @@ h1 {
 
             .float-right {
                 float: right;
-                margin-left: 15px;
+                margin: 7px 0 7px 15px;
             }
 
             a {
