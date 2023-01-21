@@ -30,9 +30,9 @@ zur Abteilungs- und Beitragsordnung Stand Juli 2022
 
 ## Formulare der Tanzsportabteilung
 
-{{< dld url="Anmeldeformular.pdf" >}}Beitrittserklärung als PDF-File  neu ab Okt 2022{{< /dld >}} &nbsp;
+{{<dld url="Anmeldeformular.pdf" wrap="1">}}Beitrittserklärung als PDF-File  neu ab Okt 2022{{< /dld >}}
 
-{{<dld url="Abteilungs-Beitragsordnung-2022-05-03.pdf">}}Abteilungs- und Beitragsordnung als PDF-File{{</dld>}}
+{{<dld url="Abteilungs-Beitragsordnung-2022-05-03.pdf" wrap="1">}}Abteilungs- und Beitragsordnung als PDF-File{{</dld>}}
 
 Den Antrag bitte vollständig ausfüllt der Clubleitung bzw. dem/r Übungsleiter/in geben. Falls noch keine VfL-Mitgliedschaft besteht, ist für Personen ab dem vollendeten 14. Lebensjahr zusätzlich ein Aufnahmeantrag des VfL-Sindelfingen beizufügen.
 

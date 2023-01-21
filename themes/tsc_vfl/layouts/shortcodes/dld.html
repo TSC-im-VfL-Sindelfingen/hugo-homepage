@@ -1,3 +1,9 @@
+{{ with .Get "wrap" }}
+<p>
+{{ end }}
 <a target="_blank" class="download" href="{{ .Get "url" }}">
     {{ .Inner }}
 </a>
+{{ with .Get "wrap" }}
+</p>
+{{ end }}
