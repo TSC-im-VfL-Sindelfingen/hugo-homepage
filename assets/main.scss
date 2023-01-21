@@ -42,6 +42,7 @@ h1 {
     width: 100%;
     min-height: 100.5vh;
     max-width: 1280px;
+    margin: auto;
     background-color: #fcfcfc;
     
     #header {
@@ -264,11 +265,11 @@ h1 {
     font-family: 'Open Sans Condensed';
     font-style: normal;
     font-weight: 400;
-    src: url("/ttf/OpenSans_Condensed-Light.ttf")  format('truetype');
+    src: url("ttf/OpenSans_Condensed-Light.ttf")  format('truetype');
 } 
 @font-face{ 
     font-family: 'Droid Serif';
     font-style: normal;
     font-weight: normal;
-    src: url('/ttf/DroidSerif.ttf') format('truetype')
+    src: url('ttf/DroidSerif.ttf') format('truetype')
 }
