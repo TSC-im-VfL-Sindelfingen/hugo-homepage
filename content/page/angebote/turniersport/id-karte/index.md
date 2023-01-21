@@ -2,6 +2,9 @@
 title: "ID-Karte"
 date: 2023-01-21T13:07:11+01:00
 draft: false
+menu:
+    main:
+        parent: turniersport
 ---
 
 ## Grundsaetzliches

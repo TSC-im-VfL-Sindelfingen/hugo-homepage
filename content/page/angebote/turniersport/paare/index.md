@@ -2,6 +2,9 @@
 title: "Paare"
 date: 2023-01-21T12:59:17+01:00
 draft: false
+menu:
+    main:
+        parent: turniersport
 ---
 
 | Name                                            | Standard   | Latein |

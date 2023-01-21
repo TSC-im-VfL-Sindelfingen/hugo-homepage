@@ -1,0 +1,12 @@
+{{ range . }}
+    <li>
+        <a href="{{ .URL }}">
+            {{ .Title }}
+        </a>
+        {{ with .Children }}
+            <ul>
+                {{ partial "sitemap-list" . }}
+            </ul>
+        {{ end }}
+    </li>
+{{ end }}

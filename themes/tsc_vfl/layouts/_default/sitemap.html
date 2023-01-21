@@ -1,0 +1,10 @@
+{{ define "main" }}
+    <a name="top">
+        <h1>{{ .Title }}</h1>
+    </a>
+    {{ .Content }}
+    <ul class="sitemap">
+        {{ partial "sitemap-list" .Site.Menus.main }}
+    </ul>
+    {{ partial "totop" }}
+{{ end }}

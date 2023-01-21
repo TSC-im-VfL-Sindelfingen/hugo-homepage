@@ -2,6 +2,9 @@
 title: "Auslandsstart"
 date: 2023-01-21T13:06:43+01:00
 draft: false
+menu:
+    main:
+        parent: turniersport
 ---
 
 Grundsätzlich dürfen Paare, die beim DTV Mitglied sind, zunächst einmal nur an Turnieren des DTVs teilnehmen.

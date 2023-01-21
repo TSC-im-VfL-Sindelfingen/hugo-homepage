@@ -5,6 +5,19 @@ $color_red: #cd1013;
 
 $gap_columns_persons: 25px;
 
+
+/* Mixins */
+
+@mixin menu-style () {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    text-decoration: none;
+
+    &.active, &:hover {
+        color: $color_red;
+    }
+}
+
 /* main styling */
 
 body {
@@ -75,12 +88,7 @@ h1 {
                 a {
                     margin: 0 40px 0 0;
                     // height: 100%;
-                    color: black;
-                    text-decoration: none;
-
-                    &.active {
-                        color: $color_red;
-                    }
+                    @include menu-style;
                 }
             }
         }
@@ -112,7 +120,7 @@ h1 {
                 color: black;
                 background-color: #ececec;
 
-                &.active {
+                &.active, &:hover {
                     background-color: $color_red;
                     color: white;
                 }
@@ -203,6 +211,10 @@ h1 {
                 > li {
                     list-style: none;
                     margin-left: 1em;
+
+                    a  {
+                        @include menu-style();
+                    }
                 }
             }
         }
