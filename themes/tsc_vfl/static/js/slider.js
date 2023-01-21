@@ -4,7 +4,7 @@ $(function () {
     const delay = 7000
     function showImage(idx) {
         // console.log("switching to index", idx)
-        const imgs = $('#header .slider img')
+        const imgs = $('#header .slider .slider-img')
         imgs.eq(idx).removeClass('hidden')
         imgs.filter((i, e) => {return i != idx}).addClass('hidden')
         const dots = $('#header .slider .dots .dot')

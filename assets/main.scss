@@ -63,7 +63,7 @@ h1 {
 
         > .slider {
             width: calc(100% - 60px);
-            height: 250px;
+            // height: 250px;
             display: flex;
             padding: 0 10px;
             border-right: 20px solid $color_red;
@@ -80,6 +80,12 @@ h1 {
 
                 &.hidden {
                     opacity: 0;
+                }
+
+                &.placeholder {
+                    position: static;
+                    visibility: hidden;
+                    width: 100%;
                 }
             }
 
