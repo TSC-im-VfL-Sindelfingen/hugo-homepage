@@ -74,11 +74,37 @@ h1 {
                 width: calc(100% - 20px);
                 // display: block;
                 position: absolute;
+                z-index: 0;
                 opacity: 1;
                 transition: opacity 2.5s ease-in-out;
 
                 &.hidden {
                     opacity: 0;
+                }
+            }
+
+            .dots {
+                position: absolute;
+                width: 95%;
+                z-index: 1;
+                left: 0;
+                bottom: 10%;
+                display: flex;
+                justify-content: end;
+
+                .dot {
+                    width: 10px;
+                    height: 10px;
+                    margin: 0 10px 0 0;
+                    border-radius: 5px;
+
+                    background-color: #eee;
+                    border: 1.5px solid #444;
+
+                    &.active {
+                        background-color: #444;
+                        border: 1.5px solid #ccc;
+                    }
                 }
             }
         }
