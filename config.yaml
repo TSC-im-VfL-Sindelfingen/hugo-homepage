@@ -7,8 +7,5 @@ relativeUrls: true
 build:
   writeStats: true
 
-menu:
-  - main
-
 enableInlineShortcodes: true
 # sectionPagesMenu: "main"
