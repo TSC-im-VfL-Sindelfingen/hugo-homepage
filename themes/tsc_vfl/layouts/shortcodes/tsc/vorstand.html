@@ -1,6 +1,6 @@
 {{ with .Site.GetPage "person" }}
     {{ with .GetPage ($.Get "name") }}
-        {{ $imageName := .Params.Get "image" }}
+        {{ $imageName := .Params.image }}
         {{ $image := "" }}
         {{ with .Resources.GetMatch $imageName}}
             {{ $image = .RelPermalink }}
@@ -9,11 +9,11 @@
             {{ with .Resources.ByType "image" }}
                 {{ $image = (index . 0).RelPermalink }}
             {{ else }}
-                {{ with .Params.Get "sex" }}
+                {{ with .Params.sex }}
                     {{ if eq . "male" }}
                         {{ $image = relURL "img/persons/male.png" }}
                     {{ else }}
-                        {{ errorf "Generic female icon not found." }}
+                    {{ $image = relURL "img/persons/female.png" }}
                     {{ end }}
                 {{ else }}
                     {{ warnf "Cannot find sex of %s." ($.Get "name") }}
@@ -23,7 +23,7 @@
         {{ $config := 
             dict
             "image" $image 
-            "name" (.Params.Get "title")
+            "name" (.Params.title)
         }}
         {{ partial "tsc/start-person" $config }}
         <div class="content content-vorstand">
@@ -32,7 +32,7 @@
                 {{ with $.Get "mail" }}
                     <a href="mailto:{{ . }}"><img src="/img/mail.jpg" class="mail-icon"></a>
                 {{ end }}
-                {{ .Params.Get "title" }}
+                {{ .Params.title }}
             </div>
         </div>
         {{ partial "tsc/end-person" . }}
