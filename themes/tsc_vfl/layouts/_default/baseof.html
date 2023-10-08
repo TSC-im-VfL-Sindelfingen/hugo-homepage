@@ -5,9 +5,11 @@
         <div id="wrapper">
             {{- partial "page/header.html" . -}}
             <div class="main">
+                {{ block "left" . }}
                 <div class="left-menu">
                     {{- partial "page/left_menu" . -}}
                 </div>
+                {{ end }}
                 <div id="content">
                     {{- block "main" . -}}{{- end -}}
                 </div>

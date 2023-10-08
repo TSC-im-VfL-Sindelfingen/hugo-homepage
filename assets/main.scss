@@ -303,6 +303,50 @@ h1 {
     }
 }
 
+.news-blog {
+    .blog-entry {
+        .header {
+            a {
+                &::before {
+                    content: '' !important;
+                }
+                font-size: larger;
+            }
+        }
+        .details {
+            display: flex;
+            min-height: 240px;
+
+            .teaser-image {
+                flex: 33% 1 0;
+                background-color: lightcyan;
+            }
+            .intro {
+                flex: 66% 1 1;
+            }
+            .teaser-image, .intro {
+                // display: ;
+            }
+        }
+    }
+
+    .pagination {
+        display: flex;
+        list-style: none;
+        .page-item {
+            padding: 0px 5px;
+            a {
+                padding: 10px 20px;
+                display: inline-block;
+            }
+        }
+
+        .disabled {
+            visibility: hidden;
+        }
+    }
+}
+
 @font-face{
     font-family: 'Open Sans Condensed';
     font-style: normal;
