@@ -25,7 +25,7 @@ $(function () {
         showImage(newIdx)
         setTimeout(nextImage, delay)
     }
-    setTimeout(nextImage, delay)
+    // setTimeout(nextImage, delay)
     $('#header .slider .dots .dot').click(function (evt) {
         // console.log(evt)
         const newIdx = $(evt.target).data('index')
