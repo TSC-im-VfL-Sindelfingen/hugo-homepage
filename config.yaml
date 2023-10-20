@@ -9,3 +9,4 @@ build:
 
 enableInlineShortcodes: true
 # sectionPagesMenu: "main"
+# refLinksErrorLevel: WARNING
