@@ -1,0 +1,27 @@
+{{ $cols := .Parent.Get "columns" }}
+{{ $imgOriginal := .Page.Resources.GetMatch (.Get "src") }}
+{{ $img := $imgOriginal }}
+{{ if eq $cols "2" }}
+{{ $img = $imgOriginal.Fit "500x1000 webp" }}
+{{ else if eq $cols "3" }}
+{{ $img = $imgOriginal.Fit "333x800 webp" }}
+{{ else if eq $cols "4" }}
+{{ $img = $imgOriginal.Fit "250x500 webp" }}
+{{ else }}
+{{ $img = $imgOriginal.Fit "800x1000 webp" }}
+{{ end }}
+{{ $imgFitted := $imgOriginal.Fit "850x1000 webp" }}
+<figure class="tsc-gallery-img">
+    <a
+        {{ with .Get "href" }}
+        href="{{ . }}"
+        {{ else }}
+        data-url="{{ $imgFitted.RelPermalink }}"
+        {{ end }}
+    >
+        <img
+        {{ with .Get "alt"}}alt="{{.}}"{{ end }}
+        src="{{ $img.RelPermalink }}"
+        >
+    </a>
+</figure>

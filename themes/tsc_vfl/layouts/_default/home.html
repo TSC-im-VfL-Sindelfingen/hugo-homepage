@@ -3,23 +3,31 @@
         <h1>{{ .Title }}</h1>
     </a>
     <div class="news-blog">
-        {{ range (.Paginate (first 10 ( where .Site.RegularPages "Section" "==" "news")) 5 ).Pages }}
+        {{ range (.Paginate (first 200 ( where .Site.RegularPages "Section" "==" "news")) 10 ).Pages }}
+        {{ $urlBlogEntry := .RelPermalink}}
         <div class="blog-entry">
             <div class="header">
                 {{ .Date.Format "02.01.2006" }}
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                <a href="{{ $urlBlogEntry }}">{{ .Title }}</a>
             </div>
             <div class="details">
                 <div class="teaser-image">
                     {{ $page := . }}
                     {{ if .Params.Image }}
-                    <img src="{{ (.Resources.GetMatch (.Params.Image)).RelPermalink }}">
+                    {{ with (.Resources.GetMatch (.Params.Image)).Fit "290x190 webp" }}
+                    <a href="{{ $urlBlogEntry }}">
+                        <img src="{{ .RelPermalink }}">
+                    </a>
+                    {{ end }}
                     {{ end }}
                 </div>
-                <div class="intro">
-                    {{ with .Summary }}
-                    {{ . }}
-                    {{ end }}
+                <div class="right-side">
+                    <div class="intro">
+                        {{ with .Summary }}
+                        {{ . }}
+                        {{ end }}
+                    </div>
+                    <div class="more"><a href="{{ $urlBlogEntry }}">MEHR...</a></div>
                 </div>
             </div>
         </div>
@@ -30,4 +38,3 @@
     {{ partial "totop" }}
 {{ end }}
 
-{{ define "left" }}<!-- No left side menu -->{{ end }}
