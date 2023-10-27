@@ -10,3 +10,4 @@ build:
 enableInlineShortcodes: true
 # sectionPagesMenu: "main"
 # refLinksErrorLevel: WARNING
+timeout: "90s"
