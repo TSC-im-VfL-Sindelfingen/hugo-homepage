@@ -1,12 +1,15 @@
-<figure>
+<figure class="tsc-image">
     {{ with .Get "href" }}
     <a href="{{ . }}">
     {{ end }}
         <img
-            {{- with .Get "alt" }}alt="{{ . }}"{{ end }}
+            {{ with .Get "alt" }}alt="{{ . }}"{{ end }}
             {{- $filename := .Get "src" }}
             {{ $resource := .Page.Resources.Get $filename -}}
             src="{{ $resource.RelPermalink }}"
+            style="
+            {{- with .Get "width" -}}max-width: {{.}}px;{{- end -}}
+            "
         >
     {{ with .Get "href" }}
     </a>

@@ -32,7 +32,7 @@ Masters 3D  Eva Rott und Dr. Rolf Nothhelfer-Richter,  Masters 3B  Petra und Jü
 Masters 3S  Sylvia und Lutz Benedix,  Gruppenfoto mit Anja + Frank Westerhoff
 
 {{< tsc/news/gallery columns="4" >}}
-  {{< tsc/news/gallery-image alt="Master3D.png" width="240" height="320" src="Master3D.png" >}}
+  {{< tsc/news/gallery-image alt="Eva Rott und Dr. Rolf Nothelfer-Richter" width="240" height="320" src="FKB_7013-1.JPG" >}}
   {{< tsc/news/gallery-image alt="Master3B.png" width="240" height="320" src="Master3B.png" >}}
   {{< tsc/news/gallery-image alt="Master3S.png" width="240" height="320" src="Master3S.png" >}}
   {{< tsc/news/gallery-image alt="LM202309.png" width="240" height="320" src="LM202309.png" >}}
