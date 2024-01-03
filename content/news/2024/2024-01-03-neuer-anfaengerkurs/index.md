@@ -1,6 +1,6 @@
 ---
 title: "Neuer Anfängerkurs ab 10.01.2024"
-date: 2024-01-10T16:27:00+00:00
+date: 2024-01-03T00:00:00+01:00
 summary: |-
     Am 10.01.2024 starten wir wieder mit einem Tanzkurs für Anfänger.
     Wir beginnen mit den Tänzen Langsamer Walzer, Tango, Wiener Walzer, Quickstep, ChaChaCha, Rumba, Jive und Discofox.
@@ -11,7 +11,7 @@ image: thumbnail.png
 
 **Anmeldungen: Bitte schicken Sie eine Email an kontakt@tanzsportclub.vfl-sindelfingen.de**
 
-Noch auf der Suche nach einem Weihnachtsgeschenk?
+Gute Vorsätze für's neue Jahr?
 
 Neuer Tanzkurs für Anfänger
 
