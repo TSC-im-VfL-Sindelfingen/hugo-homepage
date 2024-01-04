@@ -10,6 +10,9 @@ dev:
 	hugo ${HUGO_PARAMS} ${DEV_PARAMS}
 
 server:
+	hugo server ${HUGO_PARAMS}
+
+dev-server:
 	hugo server ${HUGO_PARAMS} ${DEV_PARAMS}
 
 tarball: build
