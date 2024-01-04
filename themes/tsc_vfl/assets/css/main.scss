@@ -144,10 +144,39 @@ h1 {
         display: flex;
         margin: auto;
 
-        > .left-menu {
-            width: 180px;
-            margin-right: 40px;
+        > .left-side {
             flex: auto 0 0;
+            display: flex;
+            flex-direction: column;
+            margin-right: 40px;
+
+            .announcements {
+                margin-top: 20px;
+                background-color: #ececec;
+
+                .entry {
+                    margin: 25px 0;
+                    padding: 0 15px;
+
+                    &:first-child {
+                        margin-top: 15px;
+                    }
+                    &:last-child {
+                        margin-bottom: 15px;
+                    }
+
+                    .time {
+                        font-weight: bold;
+                    }
+                    a {
+                        color: black;
+                    }
+                }
+            }
+        }
+
+        .left-menu {
+            width: 180px;
             display: flex;
             flex-direction: column;
 
@@ -406,6 +435,16 @@ h1 {
 
         .disabled {
             visibility: hidden;
+        }
+    }
+}
+
+.announcement-list {
+    .entry {
+        margin: 0 30px;
+        .time {
+            font-weight: bold;
+            margin-right: 10px;
         }
     }
 }

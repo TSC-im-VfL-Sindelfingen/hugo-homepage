@@ -7,11 +7,11 @@
         {{ $announcements := partial "get-announcement-list" . }}
         {{ range $announcements }}
             {{ $urlBlogEntry := .RelPermalink}}
-            <div class="blog-entry">
-                <div class="header">
+            <div class="entry">
+                <span class="time">
                     {{ (time.AsTime .Params.announcement.date).Format "02.01.2006" }}
-                    <a href="{{ $urlBlogEntry }}">{{ with .Params.announcement.name }}{{.}}{{else}}{{.Title}}{{end}}</a>
-                </div>
+                </span>
+                <a href="{{ $urlBlogEntry }}">{{ with .Params.announcement.name }}{{.}}{{else}}{{.Title}}{{end}}</a>
             </div>
         {{ else }}
             Aktuell gibt es keine angekündigten Termine.

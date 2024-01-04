@@ -6,8 +6,11 @@
             {{- partial "page/header.html" . -}}
             <div class="main">
                 {{ block "left" . }}
-                <div class="left-menu">
-                    {{- partial "page/left_menu" . -}}
+                <div class="left-side">
+                    <div class="left-menu">
+                        {{- partial "page/left_menu" . -}}
+                    </div>
+                    {{- partial "page/left-announcements" . -}}
                 </div>
                 {{ end }}
                 <div id="content">

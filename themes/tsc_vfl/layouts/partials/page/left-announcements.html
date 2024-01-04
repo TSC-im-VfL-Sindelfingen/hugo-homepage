@@ -1,0 +1,12 @@
+{{ $announcements := partial "get-announcement-list" . }}
+<div class="announcements">
+    {{ range $announcements }}
+        {{ $urlBlogEntry := .RelPermalink}}
+        <div class="entry">
+            <div class="time">
+                {{ (time.AsTime .Params.announcement.date).Format "02.01.2006" }}
+            </div>
+            <a href="{{ $urlBlogEntry }}">{{ with .Params.announcement.name }}{{.}}{{else}}{{.Title}}{{end}}</a>
+        </div>
+    {{ end }}
+</div>
