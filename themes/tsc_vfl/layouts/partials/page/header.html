@@ -27,7 +27,11 @@
     <div id="nav-border" class="container nav">
         <nav id="nav" class="nav justify-content-center">
             {{ range .Site.Menus.main }}
-                <a class="nav-link{{ if or ($.Page.IsMenuCurrent "main" .) ($.Page.HasMenuCurrent "main" .) }} active{{ end }}" href="{{ .URL }}">
+                <a class="nav-link{{ if or
+                    ($.Page.IsMenuCurrent "main" .)
+                    ($.Page.HasMenuCurrent "main" .)
+                    (and (eq $.Page.Type "news") (eq .Identifier "aktuell"))
+                }} active{{ end }}" href="{{ .URL }}">
                     {{/*{{ if .Pre }}
                         {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
                         {{ $icon }}

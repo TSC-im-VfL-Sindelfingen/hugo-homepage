@@ -1,6 +1,10 @@
 {{ $currentPage := .Page }}
 {{ range .Site.Menus.main }}
-    {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+    {{ if or
+        ($currentPage.IsMenuCurrent "main" .)
+        ($currentPage.HasMenuCurrent "main" .)
+        (and (eq $currentPage.Type "news") (eq .Identifier "aktuell") )
+    }}
         {{ if .HasChildren }}
             {{ range .Children }}
                 {{ $submenu := "" }}
