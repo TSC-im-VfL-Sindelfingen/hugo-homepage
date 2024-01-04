@@ -40,7 +40,7 @@ TSC im VfL Sindelfingen
 Rudolf-Harbig-Strasse 6  
 D-71063 Sindelfingen
 
-E-Mail an: kontakt@tanzsportclub.vfl-sindelfingen.de
+E-Mail: kontakt@tanzsportclub.vfl-sindelfingen.de
 
 Hinweise zum Datenschutz finden Sie hier:
 
