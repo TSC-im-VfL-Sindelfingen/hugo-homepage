@@ -12,7 +12,7 @@ menu:
 
 {{< tsc/iframe >}}https://cloud.tsc-vfl.de/index.php/apps/calendar/embed/RyoP44ym84oa5NFm-8DBYtgZwmkDsdemr-d5KikZAZJfJxMHyK/timeGridWeek/now{{< /tsc/iframe >}}
 
-Aktuell sind keine Termine vorhanden.
+{{<tsc/calendar-color-table>}}
 
 ## Raumbelegung
 

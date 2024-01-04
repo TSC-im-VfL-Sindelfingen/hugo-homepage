@@ -435,6 +435,33 @@ h1 {
     }
 }
 
+:root {
+    --color-vhvorne: #ddcb55;
+    --color-vhmitte: #c98879;
+    --color-vhhinten: #0082c9;
+}
+
+.calendar-color-legend {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+
+    .vorne {
+        background-color: var(--color-vhvorne);
+    }
+    .mitte {
+        background-color: var(--color-vhmitte);
+    }
+    .hinten {
+        background-color: var(--color-vhhinten);
+        color: white;
+    }
+    .vorne, .mitte, .hinten {
+        margin-right: 20px;
+        padding: 5px 10px;
+    }
+}
+
 @font-face{
     font-family: 'Open Sans Condensed';
     font-style: normal;
