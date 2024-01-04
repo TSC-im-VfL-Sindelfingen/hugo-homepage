@@ -1,7 +1,7 @@
 ---
 title: "Trainingszeiten"
 # date: 2023-01-20T18:04:43+01:00
-draft: true
+draft: false
 menu:
     main:
         parent: angebote

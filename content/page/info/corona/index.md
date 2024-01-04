@@ -1,7 +1,7 @@
 ---
 title: "Informationen zu Corona-Maßnahmen"
 date: 2023-01-21T18:52:29+01:00
-draft: false
+draft: true
 menu:
     main:
         parent: info
