@@ -1,0 +1,40 @@
+{{ define "main" }}
+    <a name="top">
+        <h1>{{ .Title }}</h1>
+    </a>
+    <div class="news-blog">
+        {{ range (.Paginate (first 200 ( where .Site.RegularPages "Section" "==" "news")) 10 ).Pages }}
+        {{ $urlBlogEntry := .RelPermalink}}
+        <div class="blog-entry">
+            <div class="header">
+                {{ .Date.Format "02.01.2006" }}
+                <a href="{{ $urlBlogEntry }}">{{ .Title }}</a>
+            </div>
+            <div class="details">
+                <div class="teaser-image">
+                    {{ $page := . }}
+                    {{ if .Params.Image }}
+                    {{ with (.Resources.GetMatch (.Params.Image)).Fit "290x190 webp" }}
+                    <a href="{{ $urlBlogEntry }}">
+                        <img src="{{ .RelPermalink }}">
+                    </a>
+                    {{ end }}
+                    {{ end }}
+                </div>
+                <div class="right-side">
+                    <div class="intro">
+                        {{ with .Summary }}
+                        {{ . }}
+                        {{ end }}
+                    </div>
+                    <div class="more"><a href="{{ $urlBlogEntry }}">MEHR...</a></div>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+        {{ template "_internal/pagination.html" . }}
+    </div>
+    {{ .Content }}
+    {{ partial "totop" }}
+{{ end }}
+

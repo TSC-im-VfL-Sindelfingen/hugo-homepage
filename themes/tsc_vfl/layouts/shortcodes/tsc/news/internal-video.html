@@ -1,0 +1,10 @@
+<video controls
+{{ with .Get "poster" }}poster="{{ . }}"{{ end }}
+{{ with .Get "width" }}width="{{ . }}"{{ end }}
+{{ with .Get "height" }}height="{{ . }}"{{ end }}
+>
+    <source
+    {{ with .Get "type" }}type="{{ . }}"{{ end }}
+    src="{{ (.Page.Resources.GetMatch (.Get "src")).RelPermalink }}"
+    >
+</video>

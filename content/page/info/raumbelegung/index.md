@@ -12,6 +12,8 @@ Bitte beachten Sie unsere Informationen zu den [Corona-Maßnahmen]({{< relref "c
 
 ## Raumbelegung außerplanmäßig
 
+{{< tsc/iframe >}}https://cloud.tsc-vfl.de/index.php/apps/calendar/embed/PXB8rgsH5DFJJima-djcBar4g37LRg7dt/timeGridWeek/now{{< /tsc/iframe >}}
+
 Aktuell sind keine Termine vorhanden.
 
 ## Raumbelegung

@@ -1,0 +1,7 @@
+{{ $colClass := "" }}
+{{- with .Get "columns" }}
+{{ $colClass = (print "cols-" .) }}
+{{ end -}}
+<div class="tsc-gallery {{ $colClass }}">
+    {{ .Inner }}
+</div>
