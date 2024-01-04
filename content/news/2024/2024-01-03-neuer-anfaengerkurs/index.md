@@ -7,6 +7,9 @@ summary: |-
 draft: false
 # Die nächste Zeile anpassen, wenn das Thumbnail eingerichtet ist
 image: thumbnail.png
+announcement:
+    date: 2024-01-10
+    name: "Neuer Anfängerkurs"
 ---
 
 **Anmeldungen: Bitte schicken Sie eine Email an kontakt@tanzsportclub.vfl-sindelfingen.de**

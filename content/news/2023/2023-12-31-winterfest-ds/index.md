@@ -7,6 +7,8 @@ summary: |-
 draft: false
 # Die nächste Zeile anpassen, wenn das Thumbnail eingerichtet ist
 image: thumbnail.jpg
+announcement:
+    date: 2024-01-27
 ---
 
 Hi ihr Lieben,

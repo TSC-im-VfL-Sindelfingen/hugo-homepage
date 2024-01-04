@@ -1,0 +1,21 @@
+{{ define "main" }}
+    <a name="top">
+        <h1>{{ .Title }}</h1>
+    </a>
+    {{ .Content }}
+    <div class="announcement-list">
+        {{ $announcements := partial "get-announcement-list" . }}
+        {{ range $announcements }}
+            {{ $urlBlogEntry := .RelPermalink}}
+            <div class="blog-entry">
+                <div class="header">
+                    {{ (time.AsTime .Params.announcement.date).Format "02.01.2006" }}
+                    <a href="{{ $urlBlogEntry }}">{{ with .Params.announcement.name }}{{.}}{{else}}{{.Title}}{{end}}</a>
+                </div>
+            </div>
+        {{ else }}
+            Aktuell gibt es keine angekündigten Termine.
+        {{ end }}
+    </div>
+    {{ partial "totop" }}
+{{ end }}

@@ -6,6 +6,11 @@ summary: |-
 draft: false
 # Die nächste Zeile anpassen, wenn das Thumbnail eingerichtet ist
 # image: thumbnail.jpg
+# Wenn ein Blog-beitrag auch eine Terminankündigung sein soll, hier eintragen:
+# announcement:
+#     date: 2023-11-11
+#     # Optional kann man in der Terminerinnerung noch einen Kurztitel vergeben.
+#     name: ""
 ---
 
 Hier kommt der Text

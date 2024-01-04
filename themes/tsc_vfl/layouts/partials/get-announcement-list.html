@@ -1,0 +1,11 @@
+{{ $allNews := where .Site.RegularPages "Section" "==" "news" }}
+{{ $announcements := where $allNews "Params.announcement" "ne" nil }}
+{{ $announcements = where $announcements "Params.announcement.date" "ne" nil}}
+{{ $futureAnnouncements := slice }}
+{{ range $announcements }}
+    {{ if gt (time.AsTime .Params.announcement.date) now }}
+        {{ $futureAnnouncements = $futureAnnouncements | append . }}
+    {{ end }}
+{{ end }}
+{{ $announcements = sort $futureAnnouncements "Params.announcement.date" "asc" }}
+{{ return $announcements }}
