@@ -23,9 +23,9 @@ E-Mail: info@vfl-sindelfingen.de
 
 Internet:  https://vfl-sindelfingen.de/
 
-Inhaltlich Verantwortlicher für Seiten des Tanzsportclubs: Dr. Anja Westerhoff
+Inhaltlich Verantwortliche für Seiten des Tanzsportclubs: Dr. Anja Westerhoff
 
-Inhaltlich Verantwortlicher für Seiten des VfL:  Anne Köhler, Geschäftsführerin
+Inhaltlich Verantwortliche für Seiten des VfL:  Anne Köhler, Geschäftsführerin
 
 Registergericht: Amtsgericht Böblingen (Registernummer: VR 407)
 
@@ -34,10 +34,10 @@ Umsatzsteuer-Identifikationsnummer: DE 145045785
 
 ## Tanzsportabteilung
 
-Briefanschrift Tanzsportclub im VfL Sindelfingen:
+Briefanschrift **Tanzsportclub im VfL Sindelfingen**:
 
 TSC im VfL Sindelfingen  
-Rudolf-Harbig-Strasse 6,  
+Rudolf-Harbig-Strasse 6  
 D-71063 Sindelfingen
 
 E-Mail an: kontakt@tanzsportclub.vfl-sindelfingen.de
