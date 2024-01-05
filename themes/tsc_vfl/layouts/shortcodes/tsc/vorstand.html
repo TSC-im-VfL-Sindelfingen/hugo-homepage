@@ -13,7 +13,7 @@
                     {{ if eq . "male" }}
                         {{ $image = relURL "img/persons/male.png" }}
                     {{ else }}
-                    {{ $image = relURL "img/persons/female.png" }}
+                        {{ $image = relURL "img/persons/female.png" }}
                     {{ end }}
                 {{ else }}
                     {{ warnf "Cannot find sex of %s." ($.Get "name") }}
