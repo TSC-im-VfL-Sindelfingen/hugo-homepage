@@ -272,6 +272,13 @@ h1 {
             font: 1em 'Open Sans Condensed', sans-serif;
         }
         
+        .facebook {
+            width: 20px;
+            height: 20px;
+            display: block;
+            background-image: url("img/facebook.jpg");
+        }
+
         .meta-menu {
             max-width: 70%;
             > ul {
