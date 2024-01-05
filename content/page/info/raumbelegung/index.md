@@ -7,7 +7,9 @@ menu:
         parent: info
         weight: 1
 ---
-Hier finden Sie die planmäßige Raumbelegung. Außerhalb der Trainings- und Kurszeiten können die Räume für Ihr freies Training gebucht werden. Um die Verfügbarkeit für alle Mitgieder transparent zu halten und Überschneidungen zu vermeiden, bitten wir Sie, Ihre Belegung eines Saals hier frühzeitig zu hinterlegen. Die Anleitung finden Sie unten. 
+Hier finden Sie die planmäßige Raumbelegung. 
+_Außerhalb der Trainings- und Kurszeiten können die Räume für Ihr freies Training gebucht werden._
+ Um die Verfügbarkeit für alle Mitgieder transparent zu halten und Überschneidungen zu vermeiden, bitten wir Sie, Ihre Belegung eines Saals hier frühzeitig zu hinterlegen. Die Anleitung finden Sie unten. 
 
 Bitte beachten Sie, dass die Nutzung der Räumlichkeiten ausschließlich zum Zwecke des Tanztrainings zulässig ist. 
 
@@ -41,7 +43,7 @@ Das TSC Team wird die Eintragung für Sie übernehmen. Sollten Sie die Reservier
 
 **Bitte beachten Sie, dass das Team keine Überschneidungsprüfung vornehmen kann. Also prüfen Sie bitte stets vor der Anfrage die Verfügbarkeit.**
 
-Wenn Sie **regelmäßig einen Raum buchen**, benötigen Sie einen Account in unserer Vereinsplattform "TSC Cloud Kalender". Um diesen Account zu erhalten, senden Sie bitte ein E-Mail an dummy-kontakt@dummy.com mit folgenden Angaben: 
+Wenn Sie **regelmäßig einen Raum buchen**, benötigen Sie einen Account in unserer Vereinsplattform "TSC Cloud Kalender". Um diesen Account zu erhalten, senden Sie bitte eine E-Mail an dummy-kontakt@dummy.com mit folgenden Angaben: 
 - Ihrem vollständigen Namen
 - der gewünschten E-Mailadresse für den Account 
 - sowie das Stichwort "Registrierung Raumbuchung".
