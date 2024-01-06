@@ -18,6 +18,12 @@ $gap_columns_persons: 25px;
     }
 }
 
+@mixin media-large {
+    @media screen and (min-width: 700px) {
+        @content;
+    }
+}
+
 /* main styling */
 
 body {
@@ -50,16 +56,24 @@ h1 {
     #header {
         border-bottom: 2px solid rgba(173,173,173,.5);
         margin: 0 auto 30px;
+        width: 100%;
         
         > .logo-row {
             display: flex;
             justify-content: space-between;
+            width: 100%;
 
             .logo {
-                margin: 15px 0 10px 30px;
+                margin: 15px 30px 10px 30px;
+                img {
+                    max-width: 100%;
+                }
             }
             .logo-vfl {
                 margin: 12px 45px 0 0;
+                img {
+                    max-width: 100%;
+                }
             }
         }
 
@@ -67,7 +81,11 @@ h1 {
             width: calc(100% - 60px);
             // visibility: hidden;
             // height: 250px;
-            display: flex;
+            display: none;
+
+            @include media-large() {
+                display: flex;
+            }
             padding: 0 10px;
             border-right: 20px solid $color_red;
             border-left: 20px solid $color_red;
@@ -124,6 +142,11 @@ h1 {
             margin: 5px auto 0;
             font: 1.5em 'Open Sans Condensed', sans-serif;
 
+            display: none;
+            @include media-large() {
+                display: block;
+            }
+
             nav {
                 display: flex;
                 height: 100%;
@@ -146,9 +169,12 @@ h1 {
 
         > .left-side {
             flex: auto 0 0;
-            display: flex;
             flex-direction: column;
             margin-right: 40px;
+            display: none;
+            @include media-large() {
+                display: flex;
+            }
 
             .announcements {
                 margin-top: 20px;
@@ -204,6 +230,7 @@ h1 {
         #content {
             flex: 100% 0 1;
             text-align: justify;
+            max-width: 100%;
 
             table {
                 width: 100%;
@@ -383,10 +410,13 @@ h1 {
 }
 
 .news-blog {
+    max-width: 100%;
     .blog-entry {
+        max-width: 100%;
         .header {
-
+            max-width: 100%;
             margin: 5px 0 10px;
+            text-align: left;
             a {
                 font-size: larger;
             }
@@ -395,6 +425,10 @@ h1 {
             display: flex;
             // min-height: 240px;
             margin-right: 2px;
+            flex-direction: column;
+            @include media-large(){
+                flex-direction: row;
+            }
 
             .teaser-image {
                 flex: 33% 1 0;
@@ -432,11 +466,18 @@ h1 {
     .pagination {
         display: flex;
         list-style: none;
+        padding: 0;
+        max-width: 400px;
+        margin: auto;
         .page-item {
-            padding: 0px 5px;
-            a {
-                padding: 10px 20px;
-                display: inline-block;
+            flex: auto 1 0;
+            margin: 5px;
+            .page-link {
+                display: block;
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                padding: 5px 0;
             }
         }
 
