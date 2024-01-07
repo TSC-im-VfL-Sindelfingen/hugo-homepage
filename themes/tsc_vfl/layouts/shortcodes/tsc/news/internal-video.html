@@ -2,6 +2,7 @@
 {{ with .Get "poster" }}poster="{{ . }}"{{ end }}
 {{ with .Get "width" }}width="{{ . }}"{{ end }}
 {{ with .Get "height" }}height="{{ . }}"{{ end }}
+class="internal-video"
 >
     <source
     {{ with .Get "type" }}type="{{ . }}"{{ end }}
