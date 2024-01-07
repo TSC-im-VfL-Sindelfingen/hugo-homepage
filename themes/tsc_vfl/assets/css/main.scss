@@ -395,7 +395,10 @@ h1 {
 }
 
 .person {
-    width: calc(50% - #{$gap_columns_persons} / 2);
+    width: 100%;
+    @include media-large() {
+        width: calc(50% - #{$gap_columns_persons} / 2);
+    }
     height: 80px;
     // margin: 10px 25px 10px 0;
     display: flex;
@@ -656,7 +659,7 @@ h1 {
     @include mouse-available() {
         margin: 0;
     }
-    
+
     .date {
         font-weight: bold;
         // height: 100%;
