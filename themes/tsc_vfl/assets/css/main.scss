@@ -700,6 +700,46 @@ h1 {
     }
 }
 
+table.time {
+    // width: 100%;
+    display: flex;
+    flex-direction: column;
+    tr {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        td:nth-child(1) {
+            font-weight: bold;
+        }
+        
+    }
+    tr:first-child {
+        display: none;
+    }
+
+    &.time-no-age {
+        td:nth-child(3)::before {
+            content: "Uhrzeit: ";
+        }
+        td:nth-child(4)::before {
+            content: "Ort: ";
+        }
+    }
+    
+    &.time-age {
+        td:nth-child(2)::before {
+            content: "Jahrgang: ";
+        }
+        td:nth-child(4)::before {
+            content: "Uhrzeit: ";
+        }
+        td:nth-child(5)::before {
+            content: "Ort: ";
+        }
+    }
+}
+
 .iframe-generic {
     display: block;
     width: 100%;
