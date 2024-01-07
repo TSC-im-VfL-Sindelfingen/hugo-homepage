@@ -8,7 +8,7 @@
             {{ $resource := .Page.Resources.Get $filename -}}
             src="{{ $resource.RelPermalink }}"
             style="
-            {{- with .Get "width" -}}max-width: {{.}}px;{{- end -}}
+            {{- with .Get "width" -}}width: {{.}}px;{{- end -}}
             "
         >
     {{ with .Get "href" }}

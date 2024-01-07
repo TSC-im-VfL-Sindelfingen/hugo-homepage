@@ -1,0 +1,29 @@
+{{ define "main" }}
+    <a name="top">
+        <h1>{{ .Title }}</h1>
+    </a>
+    {{ $archiveGroups := (( where .Site.RegularPages "Section" "==" "news").GroupByDate "2006" ) }}
+    <ul class="archive-short-links">
+        {{ range $archiveGroups }}
+        <li><a href="#year-{{ .Key }}">{{ .Key }}</a></li>
+        {{ end }}
+    </ul>
+
+    {{ range $archiveGroups }}
+    <h2><a id="year-{{ .Key }}">{{ .Key }}</a></h2>
+    {{ range .Pages.ByDate.Reverse }}
+    <div class="archive-year-list">
+        <div class="date">{{ .Date.Format "02.01.2006" }}</div>
+        <div class="title">
+            <a href="{{ .RelPermalink}}">
+                {{ .Title }}
+            </a>
+        </div>
+    </div>
+    {{ end }}
+    <div class="archive-to-top">
+        [<a href="#top">Zurück</a>]
+    </div>
+    {{ end }}
+{{ end }}
+

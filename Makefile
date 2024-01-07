@@ -1,5 +1,6 @@
 HUGO_PARAMS =
 DEV_PARAMS = -D
+SERVER_PARAMS = --bind 0.0.0.0
 
 all:
 
@@ -10,10 +11,10 @@ dev:
 	hugo ${HUGO_PARAMS} ${DEV_PARAMS}
 
 server:
-	hugo server ${HUGO_PARAMS}
+	hugo server ${HUGO_PARAMS} ${SERVER_PARAMS}
 
 dev-server:
-	hugo server ${HUGO_PARAMS} ${DEV_PARAMS}
+	hugo server ${HUGO_PARAMS} ${SERVER_PARAMS} ${DEV_PARAMS}
 
 tarball: build
 	tar czf page.tar.gz -C public .

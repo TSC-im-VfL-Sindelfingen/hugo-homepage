@@ -17,6 +17,10 @@
                     {{- block "main" . -}}{{- end -}}
                 </div>
             </div>
+            <div class="mobile-menu">
+                <a id="mobile-menu"></a>
+                {{- partial "page/mobile-menu" . -}}
+            </div>
             {{- partial "page/footer.html" . -}}
         </div>
         <div id="overlay" class="hidden">
