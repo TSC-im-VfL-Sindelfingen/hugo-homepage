@@ -2,6 +2,7 @@
 $total_width: 95%;
 
 $color_red: #cd1013;
+$color_background_mobile_menu_header: #e0e0e0;
 
 $gap_columns_persons: 25px;
 
@@ -293,7 +294,7 @@ h1 {
         padding: 4px 10px 0;
         display: flex;
         justify-content: space-between;
-        border-top: 1px solid #a5a5a5;
+        border-top: 1px solid $color_hor_line;
 
         .first-entry {
             font: 1em 'Open Sans Condensed', sans-serif;
