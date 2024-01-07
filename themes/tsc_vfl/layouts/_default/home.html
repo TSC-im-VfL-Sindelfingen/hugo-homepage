@@ -3,7 +3,7 @@
         <h1>{{ .Title }}</h1>
     </a>
     <div class="news-blog">
-        {{ range (.Paginate (first 200 ( where .Site.RegularPages "Section" "==" "news")) 10 ).Pages }}
+        {{ range (.Paginate (first 30 ( where .Site.RegularPages "Section" "==" "news")) 10 ).Pages }}
         {{ $urlBlogEntry := .RelPermalink}}
         <div class="blog-entry">
             <div class="header">
