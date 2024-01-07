@@ -27,6 +27,12 @@ $gap_columns_persons: 25px;
     }
 }
 
+@mixin mouse-available {
+    @media screen and (pointer: fine) {
+        @content;
+    }
+}
+
 /* main styling */
 
 body {
@@ -627,6 +633,46 @@ h1 {
     .vorne, .mitte, .hinten {
         margin-right: 20px;
         padding: 5px 10px;
+    }
+}
+
+.archive-short-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+
+    li {
+        display: block;
+        padding: 5px;
+    }
+}
+
+.archive-year-list {
+    display: flex;
+    margin: 5px 0;
+    align-items: baseline;
+
+    @include mouse-available() {
+        margin: 0;
+    }
+    
+    .date {
+        font-weight: bold;
+        // height: 100%;
+    }
+    .title {
+        margin: 0 0 0 10px;
+        text-align: left;
+
+        a {
+            display: block;
+            padding: 6.5px 0;
+
+            @include mouse-available() {
+                padding: 3px 0;
+            }
+        }
     }
 }
 
