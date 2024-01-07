@@ -612,6 +612,27 @@ h1 {
     max-width: 100%;
 }
 
+.room {
+    .image {
+        max-width: 70%;
+    }
+
+    @include media-large() {
+        display: flex;
+        align-items: start;
+
+        .image {
+            flex: 50% 0 1;
+        }
+        .address {
+            margin-left: 10px;
+        }
+        p {
+            margin: 0;
+        }
+    }
+}
+
 :root {
     --color-vhvorne: #ddcb55;
     --color-vhmitte: #c98879;
