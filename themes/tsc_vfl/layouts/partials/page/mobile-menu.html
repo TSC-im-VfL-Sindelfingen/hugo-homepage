@@ -1,0 +1,6 @@
+{{ range .Site.Menus.main }}
+<div class="level-1"><a href="{{ .URL }}" class="menu-link{{ if $.IsMenuCurrent "main" . }} active{{ end }}">{{ .Title }}</a></div>
+{{ range .Children }}
+<div class="level-2"><a href="{{ .URL }}" class="menu-link{{ if $.IsMenuCurrent "main" .}} active{{ end}}">{{ .Title }}</a></div>
+{{ end }}
+{{ end }}
