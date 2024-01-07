@@ -700,6 +700,13 @@ h1 {
     }
 }
 
+.iframe-generic {
+    display: block;
+    width: 100%;
+    height: 800px;
+    max-height: 75vh;
+}
+
 @font-face{
     font-family: 'Open Sans Condensed';
     font-style: normal;
