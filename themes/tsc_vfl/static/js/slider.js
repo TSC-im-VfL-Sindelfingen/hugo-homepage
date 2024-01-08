@@ -18,7 +18,6 @@ $(function () {
 
     function showImage(idxidx) {
         const idx = shuffeledIndices[idxidx]
-        console.log("switching to index", idx, ' using idxidx ', idxidx)
         const imgs = $('#header .slider .slider-img')
         imgs.eq(idx).removeClass('hidden')
         imgs.filter((i, e) => {return i != idx}).addClass('hidden')
