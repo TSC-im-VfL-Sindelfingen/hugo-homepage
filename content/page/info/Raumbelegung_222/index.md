@@ -1,5 +1,5 @@
 ---
-title: "Raumbelegung"
+title: "Raumbelegung 222"
 date: 2023-01-21T18:20:35+01:00
 draft: false
 menu:
@@ -13,27 +13,19 @@ _Außerhalb der Trainings- und Kurszeiten können die Räume für Ihr freies Tra
 
 Bitte beachten Sie, dass die Nutzung der Räumlichkeiten ausschließlich zum Zwecke des Tanztrainings zulässig ist. 
 
-## Raumbelegung - planmäßig
+## Vereinsheim vorne
 
-Stand 02.12.2022
+{{< tsc/iframe >}}https://cloud.tsc-vfl.de/index.php/apps/calendar/embed/d5KikZAZJfJxMHyK-ExbbqNPQMe5idxZj/timeGridWeek/now{{< /tsc/iframe >}}
 
-Die komplette {{< dld src="plan/2022-12-02/Belegung.pdf" >}}Saalbelegung als PDF{{< /dld >}} herunter laden.
+## Vereinsheim mitte
 
+{{< tsc/iframe >}}https://cloud.tsc-vfl.de/index.php/apps/calendar/embed/RyoP44ym84oa5NFm-MATxHY9KfQjPH8ws/timeGridWeek/now{{< /tsc/iframe >}}
 
-![](plan/2022-12-02/Saalbelegung_A.jpg)
+## Vereinsheim hinten (neu)
 
-![](plan/2022-12-02/Saalbelegung_B.jpg)
+{{< tsc/iframe >}}https://cloud.tsc-vfl.de/index.php/apps/calendar/embed/8DBYtgZwmkDsdemr-Rtc8n6iMi7oq5Jmw/timeGridWeek/now{{< /tsc/iframe >}}
 
-
-## Raumbelegung außerplanmäßig
-
-### Belegungsplan heute
-{{< tsc/iframe >}}https://cloud.tsc-vfl.de/index.php/apps/calendar/embed/d5KikZAZJfJxMHyK-RyoP44ym84oa5NFm-8DBYtgZwmkDsdemr/timeGridWeek/now{{< /tsc/iframe >}}
-
-{{<tsc/calendar-color-table>}}
-
-
-### Anleitung zur Raumbuchung
+## Anleitung zur Raumbuchung
 Wenn Sie **einmalig einen Raum buchen möchten**, senden Sie mindestens zwei Tage vor dem gewünschten Termin eine E-Mail an raumbuchung@dummy.com mit folgenden Angaben: 
 - Ihr Name (für Rückfragen, wird nicht öffentlich sichtbar)
 - den Anlass (wird öffentlich sichtbar)
