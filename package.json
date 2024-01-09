@@ -1,0 +1,19 @@
+{
+  "name": "hugo-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "hugo-extended server --bind 0.0.0.0",
+    "build": "hugo-extended --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.christian-wolf.click:26/tsc-vfl/hugo-page.git"
+  },
+  "author": "Christian Wolf",
+  "license": "ISC",
+  "devDependencies": {
+    "hugo-extended": "^0.121.2"
+  }
+}
