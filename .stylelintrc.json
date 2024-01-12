@@ -4,6 +4,7 @@
     ],
     "rules": {
         "media-feature-range-notation": "prefix",
-        "color-function-notation": "legacy"
+        "color-function-notation": "legacy",
+        "no-descending-specificity": null
     }
 }
