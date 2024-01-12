@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "server": "hugo-extended server --bind 0.0.0.0",
-    "build": "hugo-extended --minify"
+    "build": "hugo-extended --minify",
+    "stylelint:check": "stylelint \"**/*.scss\"",
+    "stylelint:fix": "stylelint --fix \"**/*.scss\""
   },
   "repository": {
     "type": "git",
@@ -14,6 +16,9 @@
   "author": "Christian Wolf",
   "license": "ISC",
   "devDependencies": {
-    "hugo-extended": "^0.121.2"
+    "hugo-extended": "^0.121.2",
+    "stylelint": "^16.1.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^13.0.0"
   }
 }
