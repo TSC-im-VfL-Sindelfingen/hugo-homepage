@@ -870,6 +870,24 @@ table.time {
             content: "Ort: ";
         }
     }
+
+    @include media-large() {
+        display: table;
+        
+        tr {
+            display: table-row;
+            &:first-child {
+                display: table-row;
+            }
+
+        }
+        
+        &.time-age, &.time-no-age {
+            tr td:nth-child(n):before {
+                content: none;
+            }
+        }
+    }
 }
 
 .iframe-generic {
