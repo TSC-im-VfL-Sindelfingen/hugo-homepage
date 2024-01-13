@@ -160,15 +160,17 @@ h1 {
             .calendar-manual {
                 font-size: xx-small;
 
-                @include media-large() {
+                @include media-large {
                     font-size: small;
                 }
 
                 tr {
                     height: 20px;
+
                     &.first-min {
                         border-top: solid lightgray 1px;
                     }
+
                     &:nth-of-type(n) {
                         background-color: unset;
                     }
@@ -185,8 +187,10 @@ h1 {
                         text-align: center;
                     }
                 }
+
                 .calendar-block {
                     position: relative;
+
                     .calendar-block-entity {
                         position: absolute;
                         top: 0;
@@ -199,24 +203,31 @@ h1 {
                         &.height-1 {
                             height: 20px;
                         }
+
                         &.height-2 {
                             height: 40px;
                         }
+
                         &.height-3 {
                             height: 60px;
                         }
+
                         &.height-4 {
                             height: 80px;
                         }
+
                         &.height-5 {
                             height: 100px;
                         }
+
                         &.height-6 {
                             height: 120px;
                         }
+
                         &.height-7 {
                             height: 140px;
                         }
+
                         &.height-8 {
                             height: 160px;
                         }
@@ -228,12 +239,15 @@ h1 {
                             padding: 3px;
                             overflow: hidden;
                         }
+
                         .room-vorne {
                             background-color: var(--color-vhvorne);
                         }
+
                         .room-mitte {
                             background-color: var(--color-vhmitte);
                         }
+
                         .room-hinten {
                             background-color: var(--color-vhhinten);
                             color: white;
@@ -871,11 +885,12 @@ table.time {
         }
     }
 
-    @include media-large() {
+    @include media-large {
         display: table;
         
         tr {
             display: table-row;
+
             &:first-child {
                 display: table-row;
             }
@@ -883,7 +898,7 @@ table.time {
         }
         
         &.time-age, &.time-no-age {
-            tr td:nth-child(n):before {
+            tr td:nth-child(n)::before {
                 content: none;
             }
         }
