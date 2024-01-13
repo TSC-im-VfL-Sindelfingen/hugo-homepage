@@ -1,0 +1,64 @@
+{{ $start := .Get 0 }}
+{{ $end := .Get 1}}
+{{ $days := after 2 .Params }}
+{{ $calendar := $.Site.Data.calendar.calendar }}
+<table class="calendar-manual">
+    <tr>
+        <th></th>
+        {{ range $days }}
+        <th colspan="3" class="day-title">{{ . }}</th>
+        {{ end }}
+        <th></th>
+    </tr>
+    <tr>
+        <th></th>
+        {{ range $days }}
+        <th class="first-col-of-room">vorne</th>
+        <th>mitte</th>
+        <th>hinten</th>
+        {{ end }}
+        <th></th>
+    </tr>
+    {{ range seq $start $end }}
+    {{ $hour := . }}
+    {{ range seq 0 15 45 }}
+    {{ $firstMin := "" }}
+    {{ if eq . 0 }}
+        {{ $firstMin = "first-min" }}
+    {{ end }}
+    <tr class="{{ $firstMin }}">
+        {{ $time := printf "%2d:%02d" $hour . }}
+        {{ if or (eq . 0) (eq . 30) }}
+            <td rowspan="2" class="time">{{ $time }}</td>
+        {{ end }}
+        {{ range $days }}
+            {{ $day := . }}
+            {{ $firstRoom := true }}
+            {{ range slice "vorne" "mitte" "hinten" }}
+                {{ $room := . }}
+                {{ $addClass := "" }}
+                {{ if $firstRoom }}
+                    {{ $addClass = "first-col-of-room" }}
+                    {{ $firstRoom = false }}
+                {{ end }}
+                {{ with index (index (index $calendar .) $day) $time }}
+                    <td class="calendar-block {{ $addClass }}">
+                        <div class="calendar-block-entity height-{{ .slots }}">
+                            <div class="room-block room-{{ $room }}">
+                                {{ .title }}
+                            </div>
+                        </div>
+                    </td>
+                {{ else }}
+                    <td class="{{ $addClass }}"></td>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+        {{ if or (eq . 0) (eq . 30) }}
+            {{ $time := printf "%2d.%02d" $hour . }}
+            <td rowspan="2" class="time">{{ $time }}</td>
+        {{ end }}
+    </tr>
+    {{ end }}
+    {{ end }}
+</table>

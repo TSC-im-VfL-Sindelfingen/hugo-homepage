@@ -1,0 +1,145 @@
+calendar:
+  vorne:
+    Mo:
+      "17:00":
+        title: DS Kids 0
+        slots: 4
+      "18:15":
+        title: DS Adults 5
+        slots: 4
+      "19:15":
+        title: DS Contest Gruppe
+        slots: 8
+    Di:
+      "16:30":
+        title: DS Kids 4
+        slots: 4
+    Mi:
+      "14:30":
+        title: Kindertanz 4
+        slots: 4
+      "15:30":
+        title: Kindertanz 5
+        slots: 4
+      "16:30":
+        title: Kindertanz 6
+        slots: 6
+      "18:00":
+        title: DS Teens 0
+        slots: 4
+      "19:00":
+        title: Turnieraufbau Std
+        slots: 6
+    Do:
+      "17:00":
+        title: DS Kids 5
+        slots: 4
+      "18:15":
+        title: DS Kids 1
+        slots: 4
+      "19:30":
+        title: DS Adults 3
+        slots: 6
+    Fr:
+      "16:30":
+        title: DS Minis
+        slots: 4
+      "19:00":
+        title: Tanzkreis 6
+        slots: 6
+      "20:30":
+        title: Discofox
+        slots: 4
+    # Sa: {}
+    # So: {}
+  mitte:
+    Mo:
+      "17:30":
+        title: DS Teens 2
+        slots: 4
+      "18:30":
+        title: Ballet
+        slots: 6
+      "20:00":
+        title: Tanzkreis 1
+        slots: 6
+    Di:
+      "18:45":
+        title: DS Adults 1
+        slots: 4
+      "20:00":
+        title: Tanzkreis 2
+        slots: 8
+    Mi:
+      "17:00":
+        title: DS Kids 2
+        slots: 4
+      "18:00":
+        title: DS Kids 7
+        slots: 4
+      "19:00":
+        title: Tanzkreis 3
+        slots: 6
+      "20:30":
+        title: Tanzkreis 4
+        slots: 6
+    Do:
+      "19:30":
+        title: Tanzkreis 5
+        slots: 6
+    Fr:
+      "19:00":
+        title: Tanzkreis 0
+        slots: 6
+      "20:30":
+        title: Tanzkreis 9
+        slots: 6
+    Sa: {}
+    So: {}
+  hinten:
+    Mo:
+      "15:45":
+        title: Ballet
+        slots: 6
+      # "18:15":
+      #   title: DS Adults 5
+      #   slots: 4
+    Di:
+      "19:00":
+        title: Turnier Latein
+        slots: 4
+      "20:00":
+        title: Turnier Standard
+        slots: 8
+    Mi:
+      "10:30":
+        title: Ballet
+        slots: 6
+      "17:00":
+        title: DS Kids 3
+        slots: 4
+      "18:00":
+        title: DS Teens 1
+        slots: 4
+      "19:00":
+        title: DS Adults 0
+        slots: 4
+      "20:00":
+        title: Breitensport
+        slots: 6
+    Do:
+      "18:00":
+        title: Kindertanz 8 (Turnieraufbau)
+        slots: 6
+    Fr:
+      "14:30":
+        title: Kindertanz 0
+        slots: 4
+      "15:30":
+        title: Kindertanz 7
+        slots: 4
+      "16:30":
+        title: Kindertanz 2 (Turnieraufbau)
+        slots: 6
+    Sa: {}
+    So: {}
