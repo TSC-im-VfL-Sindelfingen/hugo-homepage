@@ -924,6 +924,25 @@ table.time {
     }
 }
 
+.turnier-details {
+    .title {
+        font-weight: 600;
+    }
+    .turnier {
+        font-weight: bold;
+        .nummer {
+            font-weight: normal;
+            font-style: italic;
+        }
+    }
+    .verein {
+        margin: 20px 0 0;
+    }
+    .contact {
+        font-style: italic;
+    }
+}
+
 .iframe-generic {
     display: block;
     width: 100%;
