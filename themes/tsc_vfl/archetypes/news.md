@@ -1,6 +1,6 @@
 ---
-title: ""
-date: 2023-11-11T00:00:00+01:00
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
 summary: |-
     Hier kommt die Zusammenfassung hin
 draft: false

@@ -1,0 +1,23 @@
+{{ define "main" }}
+    {{ $datum := time.AsTime .Params.dateCompetition }}
+    <a name="top">
+        <h1>{{ .Params.ort }} am {{ $datum.Format "02.01.2006" }}</h1>
+    </a>
+    <h2>{{ .Params.partner }} / {{ .Params.partnerin }}</h2>
+    <div class="turnier-details">
+        {{ with .Params.titel }}
+            <div class="title">{{ . }}</div>
+        {{ end }}
+        <div class="turnier">
+            {{ .Params.gruppe }} {{ .Params.klasse }} {{ .Params.sektion }}
+            {{ with .Params.nummer }}
+                <span class="nummer">({{ . }})</span>
+            {{ end }}
+        </div>
+        <div class="verein">{{ .Params.verein }}</div>
+        <div class="ort">{{ .Params.ort }}</div>
+        <div class="contact">Telefon am Turniertag: {{ .Params.telefon }}</div>
+    </div>
+    {{ .Content }}
+    {{ partial "totop" }}
+{{ end }}

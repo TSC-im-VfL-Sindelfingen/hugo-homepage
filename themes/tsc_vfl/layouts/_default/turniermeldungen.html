@@ -1,0 +1,19 @@
+{{ define "main" }}
+    <a name="top">
+        <h1>{{ .Title }}</h1>
+    </a>
+    {{ $meldungen := where .Site.RegularPages "Section" "==" "turniermeldung" }}
+    <div class="turniermeldung-list">
+        {{ range (sort $meldungen ".Params.dateCompetition" "asc") }}
+            {{ $date := time.AsTime .Params.dateCompetition }}
+            {{ if ge $date (now.AddDate 0 0 -1) }}
+                <div class="turniermeldung">
+                    <div class="date">{{ $date.Format "02.01.2006" }}</div>
+                    <div class="ort"><a href="{{ .RelPermalink }}">{{ .Params.ort }}</a></div>
+                </div>
+            {{ end }}
+        {{ end }}
+    </div>
+    {{ .Content }}
+    {{ partial "totop" }}
+{{ end }}
