@@ -105,23 +105,13 @@ Ein jeder Club benötigt einen Vorstand, der die Vereinsführung übernimmt und 
         mail="presse@tanzsportclub.vfl-sindelfingen.de"
         >}}
     {{< tsc/vorstand
-        name="nelly-fuchs"
+        name="victoria-mack"
         role="Presse"
         mail="presse@tanzsportclub.vfl-sindelfingen.de"
         >}}
 {{< /tsc/person-list >}}
 
 {{< tsc/person-list >}}
-    {{< tsc/vorstand
-        name="maren-spengler"
-        role="Dancestyles"
-        mail="dance-styles@tanzsportclub.vfl-sindelfingen.de"
-        >}}
-    {{< tsc/vorstand
-        name="britta-sigmund"
-        role="Stellv. Dancestyles"
-        mail="dance-styles@tanzsportclub.vfl-sindelfingen.de"
-        >}}
     {{< tsc/vorstand
         name="kim-wustrack"
         role="Stellv. Dancestyles"
@@ -130,6 +120,11 @@ Ein jeder Club benötigt einen Vorstand, der die Vereinsführung übernimmt und 
     {{< tsc/vorstand
         name="franziska-bader"
         role="Stellv. Dancestyles"
+        >}}
+    {{< tsc/vorstand
+        name="britta-sigmund"
+        role="Stellv. Dancestyles"
+        mail="dance-styles@tanzsportclub.vfl-sindelfingen.de"
         >}}
 {{< /tsc/person-list >}}
 

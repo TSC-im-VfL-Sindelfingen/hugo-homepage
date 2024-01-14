@@ -67,8 +67,6 @@ menu:
 
 {{< tsc/person-list >}}
     {{< tsc/trainer 
-        name="maren-spengler" >}}
-    {{< tsc/trainer 
         name="kim-wustrack" >}}
     {{< tsc/trainer 
         name="suzana-koester-manojlovic" >}}
@@ -86,6 +84,14 @@ menu:
         name="leonie-weinhardt" >}}
     {{< tsc/trainer 
         name="maike-leditzky" >}}
+    {{< tsc/trainer 
+        name="aileen-wustrack" >}}
+    {{< tsc/trainer 
+        name="lena-frohnmueller" >}}
+    {{< tsc/trainer 
+        name="franziska-mack" >}}
+    {{< tsc/trainer 
+        name="jasmina-hein" >}}
 {{< /tsc/person-list >}}
 
 ## Kindertanz
