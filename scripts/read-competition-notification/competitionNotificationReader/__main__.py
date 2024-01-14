@@ -1,0 +1,3 @@
+import competitionNotificationReader
+
+competitionNotificationReader.main()
