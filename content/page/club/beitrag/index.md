@@ -32,7 +32,7 @@ Angaben zu Beitrag und Gebühr siehe Abteilungs- und Beitragsordnung
 
 ## Formulare der Tanzsportabteilung
 
-{{<dld url="Anmeldeformular.pdf" wrap="1">}}Beitrittserklärung als PDF-File  neu ab Okt 2022{{< /dld >}}
+{{<dld url="Anmeldeformular.pdf" wrap="1">}}Beitrittserklärung als PDF-File neu ab Mär 2023{{< /dld >}}
 
 {{<dld url="Abteilungs-Beitragsordnung-2022-05-03.pdf" wrap="1">}}Abteilungs- und Beitragsordnung als PDF-File{{</dld>}}
 
