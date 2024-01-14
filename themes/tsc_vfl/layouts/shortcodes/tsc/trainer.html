@@ -3,11 +3,11 @@
         {{ $imageName := .Params.image }}
         {{ $image := "" }}
         {{ with .Resources.GetMatch $imageName}}
-            {{ $image = .RelPermalink }}
+            {{ $image = (.Fit "60x80 webp").RelPermalink }}
         {{ else }}
             {{ warnf "Image for %s is not correclty found. Falling back to default." ($.Get "name") }}
             {{ with .Resources.ByType "image" }}
-                {{ $image = (index . 0).RelPermalink }}
+                {{ $image = ((index . 0).Fit "60x80 webp").RelPermalink }}
             {{ else }}
                 {{ with .Params.sex }}
                     {{ if eq . "male" }}
