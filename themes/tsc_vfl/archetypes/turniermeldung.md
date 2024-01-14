@@ -1,12 +1,13 @@
 ---
-dateCompetition: 2024-01-13
-partner: Westerhoff, Frank
-partnerin: Westerhff, Anja Dr.
-ort: GGC Clubheim, Wuppertal
-telefon: 0202 712476
+dateCompetition: 2024-01-24
+partner: Kohler, Jürgen
+partnerin: Kohler, Petra
+verein: Saalbau Haus Nidda
+ort: Frankfurt a.M.
+telefon: 0176 61745268
 gruppe: Mas III
-klasse: S
+klasse: B
 sektion: Std
-titel: GGC Seniorentag Standard
-nummer: 113904
+titel: Die Goldene Schuhbürste 2024
+nummer: 115126
 ---
