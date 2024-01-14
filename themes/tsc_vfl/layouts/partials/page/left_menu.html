@@ -4,6 +4,7 @@
         ($currentPage.IsMenuCurrent "main" .)
         ($currentPage.HasMenuCurrent "main" .)
         (and (eq $currentPage.Type "news") (eq .Identifier "aktuell") )
+        (and (eq $currentPage.Type "turniermeldung") (eq .Identifier "aktuell") )
     }}
         {{ if .HasChildren }}
             {{ range .Children }}

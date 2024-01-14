@@ -30,7 +30,8 @@
                 <a class="nav-link{{ if or
                     ($.Page.IsMenuCurrent "main" .)
                     ($.Page.HasMenuCurrent "main" .)
-                    (and (eq $.Page.Type "news") (eq .Identifier "aktuell"))
+                    (and (eq $.Page.Type "news") (eq .Identifier "aktuell") )
+                    (and (eq $.Page.Type "turniermeldung") (eq .Identifier "aktuell") )
                 }} active{{ end }}" href="{{ .URL }}">
                     {{/*{{ if .Pre }}
                         {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
