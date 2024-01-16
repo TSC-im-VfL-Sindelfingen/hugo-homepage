@@ -1,5 +1,5 @@
 ---
-title: "Trainiengsraeume"
+title: "Trainingsräume"
 date: 2023-01-15T16:33:38+01:00
 draft: false
 menu:
