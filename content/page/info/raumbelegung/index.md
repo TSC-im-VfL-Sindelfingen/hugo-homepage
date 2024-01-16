@@ -7,11 +7,7 @@ menu:
         parent: info
         weight: 1
 ---
-Hier finden Sie die planmäßige Raumbelegung. 
-_Außerhalb der Trainings- und Kurszeiten können die Räume für Ihr freies Training gebucht werden._
- Um die Verfügbarkeit für alle Mitgieder transparent zu halten und Überschneidungen zu vermeiden, bitten wir Sie, Ihre Belegung eines Saals hier frühzeitig zu hinterlegen. Die Anleitung finden Sie unten. 
-
-Bitte beachten Sie, dass die Nutzung der Räumlichkeiten ausschließlich zum Zwecke des Tanztrainings zulässig ist. 
+Hier finden Sie die Übersicht zur aktuellen Belegung unserer Tanzsäle. 
 
 ## Raumbelegung - planmäßig
 
@@ -25,7 +21,10 @@ Die komplette {{< dld src="plan/2022-12-02/Belegung.pdf" >}}Saalbelegung als PDF
 ![](plan/2022-12-02/Saalbelegung_B.jpg)
 
 
-## Raumbelegung außerplanmäßig
+## Raumbelegung außerplanmäßig 
+Außerhalb der Trainings- und Kurszeiten können die Räume für freies Training gebucht werden.
+
+Um die Verfügbarkeit für alle Mitgieder transparent zu halten und Überschneidungen zu vermeiden, sollte jede außerplanmäßige Belegung eines Saals frühzeitig eingetragen werden. 
 
 ### Belegungsplan heute
 {{< tsc/iframe >}}https://cloud.tsc-vfl.de/index.php/apps/calendar/embed/d5KikZAZJfJxMHyK-RyoP44ym84oa5NFm-8DBYtgZwmkDsdemr/timeGridWeek/now{{< /tsc/iframe >}}
@@ -33,21 +32,35 @@ Die komplette {{< dld src="plan/2022-12-02/Belegung.pdf" >}}Saalbelegung als PDF
 {{<tsc/calendar-color-table>}}
 
 
-### Anleitung zur Raumbuchung
-Wenn Sie **einmalig einen Raum buchen möchten**, senden Sie mindestens zwei Tage vor dem gewünschten Termin eine E-Mail an raumbuchung@dummy.com mit folgenden Angaben: 
-- Ihr Name (für Rückfragen, wird nicht öffentlich sichtbar)
-- den Anlass (wird öffentlich sichtbar)
-- gewünschter Saal
-- konkreter Termin mit Datum, Uhrzeit und Dauer
+### Regeln für die Belegung der Tanzsäle
+**Die Nutzung der Säle ist ausschließlich zum Zwecke des Tanztrainings erlaubt.**
 
-Das TSC Team wird die Eintragung für Sie übernehmen. Sollten Sie die Reservierung doch nicht wahrnehmen können, bitten wir Sie um eine Info, damit der Saal für andere Mitglieder verfügbar sein kann. 
+Es gelten die folgenden Regeln für die au0erplanmäßige Belegung eines Saals: 
 
-**Bitte beachten Sie, dass das Team keine Überschneidungsprüfung vornehmen kann. Also prüfen Sie bitte stets vor der Anfrage die Verfügbarkeit.**
++ Die Raumreservierung muss mindestens zwei Tage vor dem geplanten Termin eingetragen werden
++ Anzugeben sind Saal, Uhrzeit, Dauer und verantwortliche Person
++ Die Säle "vorne" und "mitte" stehen für die Reservierung zur Verfügung. Der Neue Saal ist nur in Ausnahmefällen zu buchen
++ In Ausnahmefällen kann der Neue Saal nach Genehmigung durch die Abteilungsleitung (clubleiter@tanzsportclub.vfl-sindelfingen.de) oder den Sportwart (sportwart@tanzsportclub.vfl-sindelfingen.de) reserviert werden
 
-Wenn Sie **regelmäßig einen Raum buchen**, benötigen Sie einen Account in unserer Vereinsplattform "TSC Cloud Kalender". Um diesen Account zu erhalten, senden Sie bitte eine E-Mail an dummy-kontakt@dummy.com mit folgenden Angaben: 
-- Ihrem vollständigen Namen
-- der gewünschten E-Mailadresse für den Account 
-- sowie das Stichwort "Registrierung Raumbuchung".
-Sie erhalten zeitnah einen Registrierungslink sowie eine Anleitung, wie Sie Termine eintragen können. 
+#### Außerhalb der Schulferien:
+1. Die reguläre Raumbelegung hat immer Vorrang.
+2. Es muss immer ein Saal für das freie Training verfügbar bleiben.  
+Ausnahme: größere Clubveranstaltung, wie z.B. Jahresauftakt
 
-Mit Ihren Anmeldedaten können Sie sich im TSC Cloud Kalender anmelden und Ihre Trainingstermine selbstständig eintragen. Bitte achten Sie auf die Verfügbarkeit des Saals! 
+#### Sonderbedingungen während der Schulferien:
+1. Die reguläre Raumbelegung ist aufgehoben, Ausnahme: Ballettzeiten
+2. Gruppenunterrichte zu den "üblichen Zeiten" müssen als außerordentliche Raumbelegung reserviert werden
+3. Für sonstige außerordentliche Raumbelegungen gelten die obigen Regeln
+
+### Wer kann einen Saal buchen? 
+Die außerplanmäßige Raumreservierung kann von folgenden Personenn vorgenommen werden: 
+
++ Abteilungsleiter, Sportwart, Kassenwart, Dancestyles-Trainerinnen, Homepage-Team, Veranstaltungswart, Gebäudewart
+
+Um einen Saal buchen zu können, ist ein Account in unserer Vereinsplattform "TSC Cloud Kalender" notgwendig.
+Um diesen Account zu erhalten, wende dich bitte per E-Mail die Abteilungsleitung mit folgenden Angaben: 
+- vollständiger Name
+- die gewünschte E-Mailadresse für den Account 
+- sowie das Stichwort "Registrierung Raumbuchung"
+
+Du erhältst alle nötigen Informationen direkt per E-Mail.
