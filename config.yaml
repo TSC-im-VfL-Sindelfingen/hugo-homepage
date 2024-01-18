@@ -1,8 +1,11 @@
-baseURL: http://example.org/
+baseURL: https://tanzsportclub.vfl-sindelfingen.de/
 languageCode: de
 title: TSC im VfL Sindelfingen e.V.
 theme: tsc_vfl
 relativeUrls: true
+
+sitemap:
+  changeFreq: daily
 
 build:
   writeStats: true
