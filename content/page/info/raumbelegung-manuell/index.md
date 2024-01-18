@@ -32,7 +32,7 @@ Die komplette {{< dld src="plan/2022-12-02/Belegung.pdf" >}}Saalbelegung als PDF
 
 ### Belegungsplan heute
 
-{{< tsc/iframe >}}https://cloud.tsc-vfl.de/index.php/apps/calendar/embed/d5KikZAZJfJxMHyK-RyoP44ym84oa5NFm-8DBYtgZwmkDsdemr/timeGridWeek/now{{< /tsc/iframe >}}
+{{< tsc/iframe >}}https://cloud.tsc-vfl.de/index.php/apps/calendar/embed/d5KikZAZJfJxMHyK-RyoP44ym84oa5NFm-8DBYtgZwmkDsdemr/listMonth/now{{< /tsc/iframe >}}
 {{<tsc/calendar-color-table>}}
 
 
