@@ -35,7 +35,7 @@ Um die Verfügbarkeit für alle Mitgieder transparent zu halten und Überschneid
 ### Regeln für die Belegung der Tanzsäle
 **Die Nutzung der Säle ist ausschließlich zum Zwecke des Tanztrainings erlaubt.**
 
-Es gelten die folgenden Regeln für die au0erplanmäßige Belegung eines Saals: 
+Es gelten die folgenden Regeln für die außerplanmäßige Belegung eines Saals: 
 
 + Die Raumreservierung muss mindestens zwei Tage vor dem geplanten Termin eingetragen werden
 + Anzugeben sind Saal, Uhrzeit, Dauer und verantwortliche Person
