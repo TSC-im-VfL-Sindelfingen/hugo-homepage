@@ -19,11 +19,13 @@ Interessiert? Na, dann schauen Sie doch einfach einmal vorbei!
 
 | Tanzkreise  | Tag         | Zeit          | Ort      |
 |-------------|-------------|---------------|----------|
+| Tanzkreis 0 | Freitag     | 19:00 - 20:30 | VH Mitte |
+| Tanzkreis 1 | Montag      | 20:00 - 21:30 | VH Mitte |
 | Tanzkreis 2 | Dienstag    | 20:00 - 22:00 | VH Mitte |
 | Tanzkreis 3 | Mittwoch    | 19:00 - 20:30 | VH Mitte |
 | Tanzkreis 4 | Mittwoch    | 20:30 - 22:00 | VH Mitte |
 | Tanzkreis 5 | Donnerstag  | 19:30 - 21:00 | VH Mitte |
 | Tanzkreis 6 | Freitag     | 19:00 - 20:30 | VH Vorn  |
-| Tanzkreis 0 | Freitag     | 19:00 - 20:30 | VH Mitte |
+| Tanzkreis 9 | Freitag     | 20:30 - 22:00 | VH Mitte |
 
 {{% tsc/link-offers %}}

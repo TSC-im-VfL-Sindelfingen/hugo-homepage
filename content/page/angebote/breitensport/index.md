@@ -12,9 +12,9 @@ Mit unserer Breitensportgruppe sprechen wie diejenigen an, die zwar (noch) keine
  
 ## Trainingszeit Breitensport
 
-| Breitensport Standard | Tag         | Zeit           | Ort      |
-|-----------------------|-------------|----------------|----------|
-| Breitensport Standard | Mittwoch    | 20:00 - 21:30  | VH Neu   |
+| Breitensport Standard | Tag         | Zeit           | Ort       |
+|-----------------------|-------------|----------------|-----------|
+| Breitensport Standard | Mittwoch    | 20:00 - 21:30  | VH Hinten |
 
 {{% tsc/link-offers %}}
 

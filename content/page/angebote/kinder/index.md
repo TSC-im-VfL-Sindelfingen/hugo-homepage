@@ -19,15 +19,15 @@ Für manchen ist es bereits eine gute Erfahrung, um später in einer der größe
 ## Trainingszeiten Kinder- / Jugendgruppen, Standard und Latein
 
   
-| Kinder                          | Jahrgang  | Tag        | Zeit          | Ort        |
-|---------------------------------|-----------|------------|---------------|------------|
-| Kindertanz 4                    | 2017 - 18 | Mittwoch   | 14:30 - 15:30 | VH Vorn    |
-| Kindertanz 5                    | 2015 - 16 | Mittwoch   | 15:30 - 16:30 | VH Vorn    |
-| Turnieraufbau inkl. Basic (KT6) | 2009 - 15 | Mittwoch   | 16:30 - 18:00 | VH Vorn    |
-| Turnieraufbau Inkl. Basic (KT8) |           | Donnerstag | 18:00 - 19:30 | VH Neu     |
-| Kindertanz 7                    | 2015 - 17 | Freitag    | 15:00 - 16:00 | VH Neu     |
-| Turnieraufbau inkl. Basic (KT2) |           | Freitag    | 16:00 - 17:30 | VH Neu     |
-
+| Kinder                                 | Jahrgang  | Tag        | Zeit          | Ort        |
+|----------------------------------------|-----------|------------|---------------|------------|
+| Kindertanz 0                           | 2018 - 20 | Freitag    | 14:30 - 15:30 | VH Hinten  |
+| Kindertanz 2 Turnieraufbau Kinder      |           | Freitag    | 16:30 - 18:00 | VH Hinten  |
+| Kindertanz 4 Tänzerische Früherziehung | 2019 - 20 | Mittwoch   | 14:30 - 15:30 | VH Vorn    |
+| Kindertanz 5 Turnieraufbau Kinder      |           | Mittwoch   | 15:30 - 16:30 | VH Vorn    |
+| Kindertanz 6 Turnieraufbau Kinder Std  |           | Mittwoch   | 16:30 - 18:00 | VH Vorn    |
+| Kindertanz 7                           | 2016 - 18 | Freitag    | 15:30 - 16:30 | VH Hinten  |
+| Kindertanz 8 Turnieraufb. Latein Ki/Ju |           | Donnerstag | 18:00 - 19:30 | VH Hinten  |
 
 <!-- ### Unsere Turnierpaare -->
 
