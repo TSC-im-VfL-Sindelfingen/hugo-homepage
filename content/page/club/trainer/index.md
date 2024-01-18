@@ -39,13 +39,19 @@ menu:
 
 {{< tsc/person-list >}}
     {{< tsc/trainer 
-        name="suzana-koester-manojlovic" >}}
+        name="angelika-dahm" >}}
     {{< tsc/trainer 
-        name="tina-grassl" >}}
+        name="anja-westerhoff" >}}
+    {{< tsc/trainer 
+        name="david-dahm" >}}
+    {{< tsc/trainer 
+        name="frank-westerhoff" >}}
     {{< tsc/trainer 
         name="raimund-rieger" >}}
     {{< tsc/trainer 
         name="stefan-dietl" >}}
+    {{< tsc/trainer 
+        name="suzana-koester-manojlovic" >}}
 {{< /tsc/person-list >}}
 
 ## Discofox
