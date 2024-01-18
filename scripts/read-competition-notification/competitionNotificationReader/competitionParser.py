@@ -105,11 +105,14 @@ class CompetitionParser:
         namePartnerin = self._cleanName(self._partnerin)
         competition = f'{self._group} {self._class} {self._section}'
         competitionName = self._cleanName(competition)
+        ort = self._cleanName(self._ort)
+
+        filename = f'{self._date}-{ort}-{namePartner}-{namePartnerin}-{competitionName}.md'
 
         return os.path.join(
             prefix,
             self._date[0:4],
-            f'{self._date}-{self._ort.lower()}-{namePartner}-{namePartnerin}-{competitionName}.md'
+            re.sub(self._reDashes, '-', filename)
         )   
     
     def getContent(self) -> str:
