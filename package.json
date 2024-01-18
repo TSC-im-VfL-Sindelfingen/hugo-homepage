@@ -7,7 +7,8 @@
     "server": "hugo-extended server --bind 0.0.0.0",
     "build": "hugo-extended --minify",
     "stylelint:check": "stylelint \"**/*.scss\"",
-    "stylelint:fix": "stylelint --fix \"**/*.scss\""
+    "stylelint:fix": "stylelint --fix \"**/*.scss\"",
+    "deploy": "ssh tsc-homepage@hh.wolf-stuttgart.net"
   },
   "repository": {
     "type": "git",

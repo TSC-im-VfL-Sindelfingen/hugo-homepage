@@ -21,6 +21,8 @@ tarball: build
 
 .PHONY: tarball build
 
+trigger-sync-to-stage:
+	ssh tsc-homepage@hh.wolf-stuttgart.net
 
-sync-to-stage:
-	rsync -ahPv --delete --delete-delay --info=progress2 public/ christian@hh.wolf-stuttgart.net:/srv/http/tsc/hugo/
+sync-to-stage-manual:
+	rsync -ahPv --delete --delete-delay --info=progress2 --chown tsc-homepage:tsc-homepage public/ root@hh.wolf-stuttgart.net:/srv/http/tsc/hugo/
