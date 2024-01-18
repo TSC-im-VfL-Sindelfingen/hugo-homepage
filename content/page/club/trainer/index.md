@@ -45,6 +45,8 @@ menu:
     {{< tsc/trainer 
         name="david-dahm" >}}
     {{< tsc/trainer 
+        name="domenico-franzo" >}}
+    {{< tsc/trainer 
         name="frank-westerhoff" >}}
     {{< tsc/trainer 
         name="raimund-rieger" >}}
