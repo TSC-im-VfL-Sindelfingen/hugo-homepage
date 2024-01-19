@@ -7,29 +7,25 @@ menu:
         parent: info
         weight: 1
 ---
-Hier finden Sie die Übersicht zur aktuellen Belegung unserer Tanzsäle. 
+Hier finden Sie die Übersicht zur aktuellen Belegung unserer Tanzsäle.
 
-## Raumbelegung - planmäßig
+Die vollständige Anzeige der Raumplanung kann {{<tsc/link-external url="https://cloud.tsc-vfl.de/index.php/apps/calendar/p/d5KikZAZJfJxMHyK-ExbbqNPQMe5idxZj-RyoP44ym84oa5NFm-MATxHY9KfQjPH8ws-8DBYtgZwmkDsdemr-Rtc8n6iMi7oq5Jmw/timeGridWeek/now">}}über unseren Kalender{{</tsc/link-external>}} eingesehen werden.
 
-Stand 02.12.2022
+## Raumbelegung - außerplanmäßig
 
-Die komplette {{< dld src="plan/2022-12-02/Belegung.pdf" >}}Saalbelegung als PDF{{< /dld >}} herunter laden.
-
-
-![](plan/2022-12-02/Saalbelegung_A.jpg)
-
-![](plan/2022-12-02/Saalbelegung_B.jpg)
-
-
-## Raumbelegung außerplanmäßig 
 Außerhalb der Trainings- und Kurszeiten können die Räume für freies Training gebucht werden.
 
 Um die Verfügbarkeit für alle Mitgieder transparent zu halten und Überschneidungen zu vermeiden, sollte jede außerplanmäßige Belegung eines Saals frühzeitig eingetragen werden. 
 
-### Belegungsplan heute
-{{< tsc/iframe >}}https://cloud.tsc-vfl.de/index.php/apps/calendar/embed/d5KikZAZJfJxMHyK-RyoP44ym84oa5NFm-8DBYtgZwmkDsdemr/timeGridWeek/now{{< /tsc/iframe >}}
+{{< tsc/iframe >}}https://cloud.tsc-vfl.de/index.php/apps/calendar/embed/d5KikZAZJfJxMHyK-RyoP44ym84oa5NFm-8DBYtgZwmkDsdemr/listMonth/now{{< /tsc/iframe >}}
 
 {{<tsc/calendar-color-table>}}
+
+
+## Raumbelegung - planmäßig
+
+{{< tsc/show-calendar 10 23 "Mo" "Di" "Mi" >}}
+{{< tsc/show-calendar 14 23 "Do" "Fr" >}}
 
 
 ### Regeln für die Belegung der Tanzsäle
