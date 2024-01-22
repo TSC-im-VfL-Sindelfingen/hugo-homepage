@@ -10,7 +10,9 @@ menu:
 
 Der Beitrag setzt sich zusammen aus dem Beitrag für den Hauptverein und dem Abteilungsbeitrag.
 
-Der Abteilungsbeitrag des Tanzsportclubs in voller Höhe (15 Euro) gilt für das gesamte Angebot. So kann man für einen Beitrag an mehreren Disziplinen wie z.B. am Jazztanz, Standard/Latein teilnehmen. Kinder und Jugendliche, die nur an einem Trainingstermin pro Woche teilnehmen, zahlen lediglich 9 Euro.
+Der Abteilungsbeitrag des Tanzsportclubs ist gestaffelt und kann der untenstehenden Tabelle entnommen werden.
+Er gilt für das gesamte Angebot.
+So kann man für einen Beitrag an mehreren Disziplinen wie z.B. am Jazztanz, Standard/Latein teilnehmen. 
 
 ## Gebühren
 
@@ -20,13 +22,13 @@ Rücküberweisungen werden mit 5 € Gebühr berechnet.
 
 | Abteilungsbeitrag | Erwachsene | Kinder und Jugend |
 |-------------------|------------|-------------------|
-| TSC-Monatsbeitrag aktiv | 15 € | 9 € |
+| TSC-Monatsbeitrag Wettkämpfer | 18 € | 16 € |
+| TSC-Monatsbeitrag aktiv | 15 € | 9 € * |
 | aktiv ermäßigt | 10 € | - |
 | Fördermitglieder | 3 € | 3 € |
 
-Weitere Angaben zu Beitrag und Gebühr siehe Abteilungs- und Beitragsordnung
-
-zur Abteilungs- und Beitragsordnung Stand Juli 2022
+\*  Für Kinder und Jugendliche, die an mehrere Gruppen teilnehmen, gilt der jeweilige Erwachsenenbeitrag.
+Angaben zu Beitrag und Gebühr siehe Abteilungs- und Beitragsordnung
 
 ## Formulare der Tanzsportabteilung
 
