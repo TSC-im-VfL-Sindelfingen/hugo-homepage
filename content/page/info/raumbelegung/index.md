@@ -13,9 +13,9 @@ Die vollständige Anzeige der Raumplanung kann {{<tsc/link-external url="https:/
 
 ## Raumbelegung - außerplanmäßig
 
-Außerhalb der Trainings- und Kurszeiten können die Räume für freies Training gebucht werden.
+Außerhalb der Trainings- und Kurszeiten können die Räume für spezielle (Gruppen-) Trainings gebucht werden.
 
-Um die Verfügbarkeit für alle Mitgieder transparent zu halten und Überschneidungen zu vermeiden, sollte jede außerplanmäßige Belegung eines Saals frühzeitig eingetragen werden. 
+Um die Verfügbarkeit für alle Mitglieder transparent zu halten und Überschneidungen zu vermeiden, sollte jede außerplanmäßige Belegung eines Saals frühzeitig eingetragen werden.
 
 {{< tsc/iframe >}}https://cloud.tsc-vfl.de/index.php/apps/calendar/embed/d5KikZAZJfJxMHyK-RyoP44ym84oa5NFm-8DBYtgZwmkDsdemr/listMonth/now{{< /tsc/iframe >}}
 
@@ -53,8 +53,8 @@ Die außerplanmäßige Raumreservierung kann von folgenden Personenn vorgenommen
 
 + Abteilungsleiter, Sportwart, Kassenwart, Dancestyles-Trainerinnen, Homepage-Team, Veranstaltungswart, Gebäudewart
 
-Um einen Saal buchen zu können, ist ein Account in unserer Vereinsplattform "TSC Cloud Kalender" notgwendig.
-Um diesen Account zu erhalten, wende dich bitte per E-Mail die Abteilungsleitung mit folgenden Angaben: 
+Um einen Saal buchen zu können, ist ein Account in unserer Vereinsplattform "TSC Cloud Kalender" notwendig.
+Um diesen Account zu erhalten, wende dich bitte per E-Mail an die Abteilungsleitung mit folgenden Angaben:
 - vollständiger Name
 - die gewünschte E-Mailadresse für den Account 
 - sowie das Stichwort "Registrierung Raumbuchung"
