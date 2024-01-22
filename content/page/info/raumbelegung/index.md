@@ -17,7 +17,7 @@ Außerhalb der Trainings- und Kurszeiten können die Räume für spezielle (Grup
 
 Um die Verfügbarkeit für alle Mitglieder transparent zu halten und Überschneidungen zu vermeiden, sollte jede außerplanmäßige Belegung eines Saals frühzeitig eingetragen werden.
 
-{{< tsc/iframe >}}https://cloud.tsc-vfl.de/index.php/apps/calendar/embed/d5KikZAZJfJxMHyK-RyoP44ym84oa5NFm-8DBYtgZwmkDsdemr/listMonth/now{{< /tsc/iframe >}}
+{{< tsc/iframe >}}https://cloud.tsc-vfl.de/index.php/apps/calendar/embed/d5KikZAZJfJxMHyK-RyoP44ym84oa5NFm-8DBYtgZwmkDsdemr/listYear/now{{< /tsc/iframe >}}
 
 {{<tsc/calendar-color-table>}}
 
