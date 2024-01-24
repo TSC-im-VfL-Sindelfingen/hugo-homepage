@@ -100,11 +100,6 @@ Ein jeder Club benötigt einen Vorstand, der die Vereinsführung übernimmt und 
 
 {{< tsc/person-list >}}
     {{< tsc/vorstand
-        name="diane-mongellaz"
-        role="Presse"
-        mail="presse@tanzsportclub.vfl-sindelfingen.de"
-        >}}
-    {{< tsc/vorstand
         name="katharina-pfaffenrot"
         role="Presse"
         mail="presse@tanzsportclub.vfl-sindelfingen.de"
@@ -140,13 +135,8 @@ Ein jeder Club benötigt einen Vorstand, der die Vereinsführung übernimmt und 
 
 {{< tsc/person-list >}}
     {{< tsc/vorstand
-        name="bernd-peter"
-        role="Webmaster"
-        mail="vflwebmaster@bptr.de"
-        >}}
-    {{< tsc/vorstand
         name="christian-wolf"
-        role="Stellv. Webmaster"
+        role="Webmaster"
         mail="vizesportwart@tsc-vfl.de"
         >}}
 {{< /tsc/person-list >}}

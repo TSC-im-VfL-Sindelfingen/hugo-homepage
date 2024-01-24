@@ -9,14 +9,11 @@ menu:
 
 | Name                                            | Standard   | Latein |
 |---|---|---|
-| Lutz und Sylvia Benedix                         | MAS III S  |   |
-| Stefan Isenecker und Diane Mongellaz            | MAS III S  |   |
-| Frank und Dr. Anja Westerhoff                   | MAS II S   |   |
-| Alexander und Maren Mühlschein                  | HGr D      | HGr II A |
-| Trudl und Pasquale D'Alessandro                 | MAS IV A   |   |
+| Frank und Dr. Anja Westerhoff                   | MAS III S  |   |
+| Alexander und Maren Mühlschein                  | HGr D      | MAS I A |
+| David Baal und Valeriia Ralko                   | Jug A      |   |
+| Alexander Kieper und Carolin Hehl               | MAS II A   |   |
+| Philipp Baal und Letizia Lis                    | Jun II B   | Jun II B |
 | Christopher Lehmann und Silvia Broschell        | MAS III B  | MAS I C |
-| Bernd und Ingrid Peter                          | MAS IV B   |   |
-| Jürgen und Petra Kohler                         | MAS III C  |   |
+| Jürgen und Petra Kohler                         | MAS III B  | MAS III D  |
 | Dr. Rolf Nothhelfer-Richter und Eva Maria Rott  | MAS III D  | MAS III D |
-| Hanns Georg und Petra Pipping                   | MAS III D  |   |
-| Philip Rödl und Sanja Bleiziffer                | KIN I D    | KIN I D |
