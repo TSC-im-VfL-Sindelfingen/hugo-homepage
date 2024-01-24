@@ -6,6 +6,10 @@ $color-background-mobile-menu-header: #e0e0e0;
 $color-hor-line: #a5a5a5;
 $gap-columns-persons: 25px;
 
+$color-vh-vorne: #ddcb55;
+$color-vh-mitte: #c98879;
+$color-vh-hinten: #0082c9;
+
 
 /* Mixins */
 
@@ -140,6 +144,7 @@ h1 {
                 td, th {
                     padding: 5px;
                     border: none;
+                    text-align: left;
                 }
 
                 tr {
@@ -771,9 +776,9 @@ h1 {
 }
 
 :root {
-    --color-vhvorne: #ddcb55;
-    --color-vhmitte: #c98879;
-    --color-vhhinten: #0082c9;
+    --color-vhvorne: #{$color-vh-vorne};
+    --color-vhmitte: #{$color-vh-mitte};
+    --color-vhhinten: #{$color-vh-hinten};
 }
 
 .calendar-color-legend {
