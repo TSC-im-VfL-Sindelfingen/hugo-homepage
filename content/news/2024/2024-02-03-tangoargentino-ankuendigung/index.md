@@ -8,7 +8,7 @@ draft: false
 image: thumbnail.png
 # Wenn ein Blog-beitrag auch eine Terminankündigung sein soll, hier eintragen:
 announcement:
-     date: 2024-03-23
+    date: 2024-03-23
 #     # Optional kann man in der Terminerinnerung noch einen Kurztitel vergeben.
 #     name: ""
 ---
