@@ -585,10 +585,10 @@ h1 {
 
             .teaser-image {
                 flex: 33% 1 0;
+                height: 190px;
                 
                 img {
                     width: 90%;
-                    height: 190px;
                     object-fit: contain;
                     object-position: left top;
                 }
