@@ -584,8 +584,13 @@ h1 {
             }
 
             .teaser-image {
-                flex: 33% 1 0;
+                flex: auto 0 0;
+                display: block;
                 height: 190px;
+
+                @include media-large(){
+                    flex: 33% 1 0;
+                }
                 
                 img {
                     width: 90%;
