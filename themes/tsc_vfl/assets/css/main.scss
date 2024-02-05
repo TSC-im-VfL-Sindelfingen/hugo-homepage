@@ -5,6 +5,7 @@ $color-background-mobile-menu: #f5f5f5;
 $color-background-mobile-menu-header: #e0e0e0;
 $color-hor-line: #a5a5a5;
 $gap-columns-persons: 25px;
+$left-menu-width: 180px;
 
 $color-vh-vorne: #ddcb55;
 $color-vh-mitte: #c98879;
@@ -75,6 +76,8 @@ h1 {
             flex-direction: column;
             margin-right: 40px;
             display: none;
+            width: $left-menu-width;
+            
 
             @include media-large {
                 display: flex;
@@ -108,7 +111,6 @@ h1 {
         }
 
         .left-menu {
-            width: 180px;
             display: flex;
             flex-direction: column;
 
